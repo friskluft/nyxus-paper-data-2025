@@ -1,0 +1,78 @@
+      651870208 bytes free (consumed=-3.54206e+08) [ -43.13% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z152_t003.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z152_t003.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651870208 bytes free (consumed=-3.54206e+08) [ -43.13% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z153_t000.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z153_t000.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651870208 bytes free (consumed=-3.54206e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z153_t001.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z153_t001.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651870208 bytes free (consumed=-3.54206e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z153_t002.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z153_t002.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651870208 bytes free (consumed=-3.54206e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z153_t003.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z153_t003.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651870208 bytes free (consumed=-3.54206e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z154_t000.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z154_t000.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651612160 bytes free (consumed=-3.54464e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z154_t001.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z154_t001.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651612160 bytes free (consumed=-3.54464e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z154_t002.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z154_t002.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+      651612160 bytes free (consumed=-3.54464e+08) [ -43.12% ]   INT: /home/kharchenkoa2/work/data/decathlon/output/int/BRATS_484_z154_t003.ome.tif SEG: /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_484_z154_t003.ome.tif
+Gathering ROI metrics
+        --> /home/kharchenkoa2/work/data/OUT-decathlon/f_decathlon.csv.csv
+--------------------
+Total time of all feature groups [sec] = 8122.95
+Break-down:
+--------------------
+Gabor/Gabor/Gabor/#f58231       10.16%  8.251e+08
+Image scan1/ImgScan1/Scan1/lightsteelblue       0.12%   9.53882e+06
+Image scan2a/ImgScan2a/Scan2a/lightsteelblue    51.11%  4.15137e+09
+Image scan2b/ImgScan2b/Scan2b/lightsteelblue    0.08%   6.48185e+06
+Image scan3/ImgScan3/Scan3/lightsteelblue       0.01%   1.02906e+06
+Intensity/Intensity/Int/#FFFF00 0.84%   6.79541e+07
+Moments/Moments/2D moms/#FFFACD 9.36%   7.60338e+08
+Morphology/Basic/E/#4aaaea      0.36%   2.89204e+07
+Morphology/Chords/Ch/#4aaaea    1.65%   1.34283e+08
+Morphology/Contour/C/#4aaaea    0.51%   4.18293e+07
+Morphology/Ellipticity/E/#4aaaea        0.32%   2.60756e+07
+Morphology/Erosion/Er/#4aaaea   1.33%   1.07633e+08
+Morphology/Euler/Eu/#4aaaea     0.38%   3.10964e+07
+Morphology/Extrema/Ex/#4aaaea   0.31%   2.54056e+07
+Morphology/Feret/F/#4aaaea      0.32%   2.63903e+07
+Morphology/Fractal dimension/Fd/#4aaaea 0.47%   3.77804e+07
+Morphology/HexPolygEncloInsCircleGeodetLenThickness/HP/#4aaaea  1.03%   8.35719e+07
+Morphology/Hull/H/#4aaaea       0.35%   2.80638e+07
+Morphology/Martin/M/#4aaaea     0.41%   3.32232e+07
+Morphology/Nassenstein/N/#4aaaea        0.41%   3.34104e+07
+Morphology/RoiR/R/#4aaaea       0.68%   5.48934e+07
+Neighbors/Neighbors/N/#FF69B4   0.01%   1.20795e+06
+RDistribution/Rdist/Rd/#00FFFF  0.95%   7.74623e+07
+RDistribution/Zernike/Rz/#00FFFF        1.2%    9.77432e+07
+Texture/GLCM/GLCM/#bbbbbb       0.59%   4.79389e+07
+Texture/GLDM/D/#bbbbbb  0.9%    7.32643e+07
+Texture/GLDZM/DZ/#bbbbbb        1.31%   1.06639e+08
+Texture/GLRLM/RL/#bbbbbb        2.23%   1.81273e+08
+Texture/GLSZM/SZ/#bbbbbb        11.1%   9.01727e+08
+Texture/NGLDM/NG/#bbbbbb        0.7%    5.65434e+07
+Texture/NGTDM/NG/#bbbbbb        0.8%    6.47678e+07
+--------------------
+
+>>> STARTED >>> 2024-05-23 13:43:19
+>>> FINISHED >>>        2024-05-23 16:37:14
+++ date +%s
++ end=1716496634
++ echo 'Elapsed Time: 10435 seconds'
+Elapsed Time: 10435 seconds
++ echo '***'
++ date
++ echo /home/kharchenkoa2/work/data/decathlon/output
++ printf 'Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 \n'
++ printf 'Elapsed Time: 10435 seconds \n'
++ date
+Thu May 23 16:37:14 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-nyxus]$

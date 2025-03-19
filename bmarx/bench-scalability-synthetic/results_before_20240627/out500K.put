@@ -1,0 +1,90 @@
++ FPATT='synthetic_nrois=500000_roiarea=10\.ome\.tif'
++ TIMEFILE=run_nyxus_synthetic_timing_n500000_s10.output
++ date
+Wed Jan 31 21:11:53 EST 2024
+++ date +%s
++ start=1706753513
++ /home/kharchenkoa2/work/nyxusbuild1/nyxus '--filePattern=synthetic_nrois=500000_roiarea=10\.ome\.tif' --intDir=/home/kharchenkoa2/work/data/synthetic3/int --segDir=/home/kharchenkoa2/work/data/synthetic3/seg --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv '--features=*ALL*' --reduceThreads=8
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./run_nyxus_synthetic.sh: line 35: 3187354 Aborted                 (core dumped) $EXEPATH --filePattern=$FPATT --intDir=$DATADIR/int --segDir=$DATADIR/seg --outDir=$OUTDIR --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8
+++ date +%s
++ end=1706754431
++ echo 'Image: synthetic_nrois=500000_roiarea=10\.ome\.tif Elapsed Time: 918 seconds'
+Image: synthetic_nrois=500000_roiarea=10\.ome\.tif Elapsed Time: 918 seconds
++ printf 'FPATT: synthetic_nrois=500000_roiarea=10\.ome\.tif \nDATADIR: /home/kharchenkoa2/work/data/synthetic3 \nOUTDIR: /home/kharchenkoa2/work/data/OUT-tissuenet \nSETTINGSFILE:  \nElapsed Time: 918 seconds \n'
++ date
+Wed Jan 31 21:27:11 EST 2024
++ FPATT='synthetic_nrois=500000_roiarea=100\.ome\.tif'
++ TIMEFILE=run_nyxus_synthetic_timing_n500000_s100.output
++ date
+Wed Jan 31 21:27:11 EST 2024
+++ date +%s
++ start=1706754431
++ /home/kharchenkoa2/work/nyxusbuild1/nyxus '--filePattern=synthetic_nrois=500000_roiarea=100\.ome\.tif' --intDir=/home/kharchenkoa2/work/data/synthetic3/int --segDir=/home/kharchenkoa2/work/data/synthetic3/seg --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv '--features=*ALL*' --reduceThreads=8
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./run_nyxus_synthetic.sh: line 51: 3216802 Aborted                 (core dumped) $EXEPATH --filePattern=$FPATT --intDir=$DATADIR/int --segDir=$DATADIR/seg --outDir=$OUTDIR --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8
+++ date +%s
++ end=1706755727
++ echo 'Image: synthetic_nrois=500000_roiarea=100\.ome\.tif Elapsed Time: 1296 seconds'
+Image: synthetic_nrois=500000_roiarea=100\.ome\.tif Elapsed Time: 1296 seconds
++ printf 'FPATT: synthetic_nrois=500000_roiarea=100\.ome\.tif \nDATADIR: /home/kharchenkoa2/work/data/synthetic3 \nOUTDIR: /home/kharchenkoa2/work/data/OUT-tissuenet \nSETTINGSFILE:  \nElapsed Time: 1296 seconds \n'
++ date
+Wed Jan 31 21:48:47 EST 2024
++ FPATT='synthetic_nrois=500000_roiarea=500\.ome\.tif'
++ TIMEFILE=run_nyxus_synthetic_timing_n500000_s500.output
++ date
+Wed Jan 31 21:48:47 EST 2024
+++ date +%s
++ start=1706755727
++ /home/kharchenkoa2/work/nyxusbuild1/nyxus '--filePattern=synthetic_nrois=500000_roiarea=500\.ome\.tif' --intDir=/home/kharchenkoa2/work/data/synthetic3/int --segDir=/home/kharchenkoa2/work/data/synthetic3/seg --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv '--features=*ALL*' --reduceThreads=8
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./run_nyxus_synthetic.sh: line 67: 3245483 Aborted                 (core dumped) $EXEPATH --filePattern=$FPATT --intDir=$DATADIR/int --segDir=$DATADIR/seg --outDir=$OUTDIR --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8
+++ date +%s
++ end=1706758078
++ echo 'Image: synthetic_nrois=500000_roiarea=500\.ome\.tif Elapsed Time: 2351 seconds'
+Image: synthetic_nrois=500000_roiarea=500\.ome\.tif Elapsed Time: 2351 seconds
++ printf 'FPATT: synthetic_nrois=500000_roiarea=500\.ome\.tif \nDATADIR: /home/kharchenkoa2/work/data/synthetic3 \nOUTDIR: /home/kharchenkoa2/work/data/OUT-tissuenet \nSETTINGSFILE:  \nElapsed Time: 2351 seconds \n'
++ date
+Wed Jan 31 22:27:58 EST 2024
++ FPATT='synthetic_nrois=500000_roiarea=1000\.ome\.tif'
++ TIMEFILE=run_nyxus_synthetic_timing_n500000_s1000.output
++ date
+Wed Jan 31 22:27:58 EST 2024
+++ date +%s
++ start=1706758078
++ /home/kharchenkoa2/work/nyxusbuild1/nyxus '--filePattern=synthetic_nrois=500000_roiarea=1000\.ome\.tif' --intDir=/home/kharchenkoa2/work/data/synthetic3/int --segDir=/home/kharchenkoa2/work/data/synthetic3/seg --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv '--features=*ALL*' --reduceThreads=8
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./run_nyxus_synthetic.sh: line 83: 3273487 Aborted                 (core dumped) $EXEPATH --filePattern=$FPATT --intDir=$DATADIR/int --segDir=$DATADIR/seg --outDir=$OUTDIR --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8
+++ date +%s
++ end=1706761871
++ echo 'Image: synthetic_nrois=500000_roiarea=1000\.ome\.tif Elapsed Time: 3793 seconds'
+Image: synthetic_nrois=500000_roiarea=1000\.ome\.tif Elapsed Time: 3793 seconds
++ printf 'FPATT: synthetic_nrois=500000_roiarea=1000\.ome\.tif \nDATADIR: /home/kharchenkoa2/work/data/synthetic3 \nOUTDIR: /home/kharchenkoa2/work/data/OUT-tissuenet \nSETTINGSFILE:  \nElapsed Time: 3793 seconds \n'
++ date
+Wed Jan 31 23:31:11 EST 2024
++ FPATT='synthetic_nrois=500000_roiarea=10000\.ome\.tif'
++ TIMEFILE=run_nyxus_synthetic_timing_n500000_s10000.output
++ date
+Wed Jan 31 23:31:11 EST 2024
+++ date +%s
++ start=1706761871
++ /home/kharchenkoa2/work/nyxusbuild1/nyxus '--filePattern=synthetic_nrois=500000_roiarea=10000\.ome\.tif' --intDir=/home/kharchenkoa2/work/data/synthetic3/int --segDir=/home/kharchenkoa2/work/data/synthetic3/seg --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv '--features=*ALL*' --reduceThreads=8
+./run_nyxus_synthetic.sh: line 99: 3300541 Killed                  $EXEPATH --filePattern=$FPATT --intDir=$DATADIR/int --segDir=$DATADIR/seg --outDir=$OUTDIR --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8
+++ date +%s
++ end=1706790949
++ echo 'Image: synthetic_nrois=500000_roiarea=10000\.ome\.tif Elapsed Time: 29078 seconds'
+Image: synthetic_nrois=500000_roiarea=10000\.ome\.tif Elapsed Time: 29078 seconds
++ printf 'FPATT: synthetic_nrois=500000_roiarea=10000\.ome\.tif \nDATADIR: /home/kharchenkoa2/work/data/synthetic3 \nOUTDIR: /home/kharchenkoa2/work/data/OUT-tissuenet \nSETTINGSFILE:  \nElapsed Time: 29078 seconds \n'
++ date
+Thu Feb  1 07:35:49 EST 2024
++ FPATT='synthetic_nrois=500000_roiarea=100000\.ome\.tif'
++ TIMEFILE=run_nyxus_synthetic_timing_n500000_s100000.output
++ date
+Thu Feb  1 07:35:49 EST 2024
+++ date +%s
++ start=1706790949
++ /home/kharchenkoa2/work/nyxusbuild1/nyxus '--filePattern=synthetic_nrois=500000_roiarea=100000\.ome\.tif' --intDir=/home/kharchenkoa2/work/data/synthetic3/int --segDir=/home/kharchenkoa2/work/data/synthetic3/seg --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet --verbose=1 --useGpu=true --outputType=singlecsv '--features=*ALL*' --reduceThreads=8

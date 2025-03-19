@@ -1,0 +1,5 @@
+JARPATH: /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar 
+DATADIR: /home/kharchenkoa2/work/data/tissuenet-accuracy-multisegment 
+OUTDIR: /home/kharchenkoa2/work/data/OUT-radj 
+SETTINGSFILE: /home/kharchenkoa2/work/bench-radiomicsj/settings_2D.properties 
+Elapsed Time: 1 seconds 

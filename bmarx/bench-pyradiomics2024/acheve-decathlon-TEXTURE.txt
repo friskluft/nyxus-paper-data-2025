@@ -1,0 +1,120 @@
++ echo '--------------------- timestamp: 14175 s'
+--------------------- timestamp: 14175 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:52] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t001_roi0002.tif
+++ date +%s
++ tentEnd=1714822312
++ echo '--------------------- timestamp: 14175 s'
+--------------------- timestamp: 14175 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t001_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t001_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t001_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:52] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t001_roi0003.tif
+++ date +%s
++ tentEnd=1714822313
++ echo '--------------------- timestamp: 14176 s'
+--------------------- timestamp: 14176 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t001_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t001_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t001_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:53] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t002_roi0001.tif
+++ date +%s
++ tentEnd=1714822313
++ echo '--------------------- timestamp: 14176 s'
+--------------------- timestamp: 14176 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t002_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t002_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t002_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:53] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t002_roi0002.tif
+++ date +%s
++ tentEnd=1714822313
++ echo '--------------------- timestamp: 14176 s'
+--------------------- timestamp: 14176 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t002_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t002_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t002_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:54] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t002_roi0003.tif
+++ date +%s
++ tentEnd=1714822314
++ echo '--------------------- timestamp: 14177 s'
+--------------------- timestamp: 14177 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t002_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t002_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t002_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:54] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t003_roi0001.tif
+++ date +%s
++ tentEnd=1714822314
++ echo '--------------------- timestamp: 14177 s'
+--------------------- timestamp: 14177 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t003_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t003_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t003_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:54] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t003_roi0002.tif
+++ date +%s
++ tentEnd=1714822314
++ echo '--------------------- timestamp: 14177 s'
+--------------------- timestamp: 14177 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t003_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t003_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t003_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:55] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z088_t003_roi0003.tif
+++ date +%s
++ tentEnd=1714822315
++ echo '--------------------- timestamp: 14178 s'
+--------------------- timestamp: 14178 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z088_t003_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z088_t003_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z088_t003_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:55] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z089_t000_roi0001.tif
+++ date +%s
++ tentEnd=1714822315
++ echo '--------------------- timestamp: 14178 s'
+--------------------- timestamp: 14178 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z089_t000_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z089_t000_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z089_t000_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:55] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z089_t000_roi0002.tif
+++ date +%s
++ tentEnd=1714822316
++ echo '--------------------- timestamp: 14179 s'
+--------------------- timestamp: 14179 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z089_t000_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z089_t000_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z089_t000_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:56] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z089_t000_roi0003.tif
+++ date +%s
++ tentEnd=1714822316
++ echo '--------------------- timestamp: 14179 s'
+--------------------- timestamp: 14179 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z089_t000_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z089_t000_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z089_t000_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+[2024-05-04 07:31:56] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_061_z089_t001_roi0001.tif
+++ date +%s
++ tentEnd=1714822316
++ echo '--------------------- timestamp: 14179 s'
+--------------------- timestamp: 14179 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z089_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z089_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z089_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+^CTraceback (most recent call last):
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/bin/pyradiomics", line 7, in <module>
+    from radiomics.scripts.__init__ import parse_args
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/radiomics/__init__.py", line 12, in <module>
+    import numpy  # noqa: F401
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/numpy/core/__init__.py", line 9, in <module>
+    from numpy.version import version as __version__
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/numpy/version.py", line 3, in <module>
+    from ._version import get_versions
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/numpy/_version.py", line 7, in <module>
+    import json
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1033, in get_data
+KeyboardInterrupt
+

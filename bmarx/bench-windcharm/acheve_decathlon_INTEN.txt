@@ -1,0 +1,64 @@
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z113_t003.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z113_t003.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.8411e-05
+                ====== Timing PixelIntensityStatistics [s]: 1.093e-05
+                Timing AddImageFile [s]: 0.000125682
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t000.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t000.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.8861e-05
+                ====== Timing PixelIntensityStatistics [s]: 7.021e-06
+                Timing AddImageFile [s]: 0.000110952
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t001.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t001.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.6871e-05
+                ====== Timing PixelIntensityStatistics [s]: 6.68e-06
+                Timing AddImageFile [s]: 0.000116973
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t002.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t002.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.7231e-05
+                ====== Timing PixelIntensityStatistics [s]: 6.6e-06
+                Timing AddImageFile [s]: 0.000121832
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t003.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z114_t003.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.7991e-05
+                ====== Timing PixelIntensityStatistics [s]: 5.73e-06
+                Timing AddImageFile [s]: 0.000110512
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z115_t000.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z115_t000.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.3331e-05
+                ====== Timing PixelIntensityStatistics [s]: 1.9e-06
+                Timing AddImageFile [s]: 9.9932e-05
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z115_t001.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z115_t001.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+                ====== Timing PixelIntensityStatistics [s]: 5.6051e-05
+                ====== Timing PixelIntensityStatistics [s]: 2.42e-06
+                Timing AddImageFile [s]: 0.000120003
+Adding '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z115_t002.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-INTEN/BRATS_332_z115_t002.ome.sig' (index 0).
+malloc(): smallbin double linked list corrupted
+run-windcharm-decathlon-INTEN.sh: line 24: 2905671 Aborted                 (core dumped) $EXEPATH --DataPath $IDIR --LabeledData $SDIR --ImageTransformationName Original --FeatureAlgorithmName $FEATURESET --output $ODIR
+run-windcharm-decathlon-INTEN.sh: line 25: iginal: command not found
+Elapsed Time: 3113 seconds
+Tue May  7 14:21:57 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-windcharm]$
+
+
+
+PREDICTION
+
+	205682  BRATS_332_z115_t001.ome.tif
+
+	300080 / 205682 * 3113 = 4541.71507473 (s)
+
+
+	
+
+
+

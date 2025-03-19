@@ -1,0 +1,42 @@
++ fn=BRATS_484_z102_t003_roi0001.tif
++ ls /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z102_t003_roi0001.tif
+/home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z102_t003_roi0001.tif
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z102_t003_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_484_z102_t003_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad/BRATS_484_z102_t003_roi0001.tif.csv --format csv --jobs 8
+[2024-05-03 16:14:51] W: (MainThread) radiomics.featureextractor: Shape features are only available 3D input (for 2D input, use shape2D). Found 2D input
+[2024-05-03 16:14:51] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_484_z103_t000_roi0001.tif
++ ls /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t000_roi0001.tif
+/home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t000_roi0001.tif
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t000_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_484_z103_t000_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad/BRATS_484_z103_t000_roi0001.tif.csv --format csv --jobs 8
+[2024-05-03 16:14:51] W: (MainThread) radiomics.featureextractor: Shape features are only available 3D input (for 2D input, use shape2D). Found 2D input
+[2024-05-03 16:14:51] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_484_z103_t001_roi0001.tif
++ ls /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t001_roi0001.tif
+/home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t001_roi0001.tif
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_484_z103_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad/BRATS_484_z103_t001_roi0001.tif.csv --format csv --jobs 8
+[2024-05-03 16:14:52] W: (MainThread) radiomics.featureextractor: Shape features are only available 3D input (for 2D input, use shape2D). Found 2D input
+[2024-05-03 16:14:52] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_484_z103_t002_roi0001.tif
++ ls /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t002_roi0001.tif
+/home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t002_roi0001.tif
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t002_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_484_z103_t002_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad/BRATS_484_z103_t002_roi0001.tif.csv --format csv --jobs 8
+[2024-05-03 16:14:52] W: (MainThread) radiomics.featureextractor: Shape features are only available 3D input (for 2D input, use shape2D). Found 2D input
+[2024-05-03 16:14:52] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
++ for fpath in ${files[@]}
++ fn=BRATS_484_z103_t003_roi0001.tif
++ ls /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t003_roi0001.tif
+/home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t003_roi0001.tif
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_484_z103_t003_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_484_z103_t003_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad/BRATS_484_z103_t003_roi0001.tif.csv --format csv --jobs 8
+[2024-05-03 16:14:52] W: (MainThread) radiomics.featureextractor: Shape features are only available 3D input (for 2D input, use shape2D). Found 2D input
+[2024-05-03 16:14:52] W: (MainThread) radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+++ date +%s
++ end=1714767292
++ echo 'Experiment: banchmarking_Pyradiomics Elapsed Time: 90594 seconds'
+Experiment: banchmarking_Pyradiomics Elapsed Time: 90594 seconds
++ echo 'Experiment: banchmarking_Pyradiomics Elapsed Time: 90594 seconds'
++ date
+Fri May  3 16:14:52 EDT 2024
+

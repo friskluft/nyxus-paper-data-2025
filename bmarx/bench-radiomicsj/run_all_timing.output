@@ -1,0 +1,5 @@
+JARPATH: /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar 
+DATADIR: /home/kharchenkoa2/work/data/tissuenet-split-roi 
+OUTDIR: /home/kharchenkoa2/work/data/OUT-radj 
+SETTINGSFILE: /home/kharchenkoa2/work/radiomicsj/settings_2D_example.properties 
+Elapsed Time: 27103 seconds 

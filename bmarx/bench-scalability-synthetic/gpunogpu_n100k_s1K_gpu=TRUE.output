@@ -1,0 +1,6 @@
+FPATT: synthetic_nrois=100000_roiarea=1000\.ome\.tif 
+USEGPU: TRUE
+DATADIR: /home/kharchenkoa2/work/data/synthetic3 
+OUTDIR: /home/kharchenkoa2/work/data/OUT-tissuenet 
+SETTINGSFILE:  
+Elapsed Time: 1269 seconds 

@@ -1,0 +1,7 @@
+116 seconds
+***
+Mon May  6 07:43:05 EDT 2024
+/data/decathlon/output/int
+/data/decathlon/output/seg
+Feature2DJava_Mean,Feature2DJava_Entropy,Feature2DJava_Median,Feature2DJava_Mode,Feature2DJava_StandardDeviation,Feature2DJava_Skewness,Feature2DJava_Kurtosis,Feature2DJava_Hyperskewness,Feature2DJava_Hyperflatness
+5657 seconds

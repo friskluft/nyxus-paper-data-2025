@@ -1,0 +1,56 @@
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z045_t002.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z045_t002.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.00778257
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z045_t003.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z045_t003.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0125829
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t000.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t000.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0145778
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t001.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t001.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0131877
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t002.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t002.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0143954
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t003.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z046_t003.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0142337
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z047_t000.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z047_t000.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0152531
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z047_t001.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z047_t001.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+                Timing AddImageFile [s]: 0.0152215
+Adding '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z047_t002.ome.sig' for sig calc.
+processing '/home/kharchenkoa2/work/data/OUT-wc-SHAPE/BRATS_309_z047_t002.ome.sig' (index 0).
+Total Number of Processes in the OpenMP Parallel Region = 7
+ Only a point is present: Fractal Dimension is set to zero
+double free or corruption (out)
+run-windcharm-decathlon-SHAPE.sh: line 23: 2905109 Aborted                 (core dumped) $EXEPATH --DataPath $IDIR --LabeledData $SDIR --ImageTransformationName Original --FeatureAlgorithmName Morphological --output $ODIR
+Elapsed Time: 5315 seconds
+Tue May  7 11:43:31 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-windcharm]$
+
+PREDICTION
+
+	191150  BRATS_309_z047_t001.ome.tif
+
+	300080 / 191150 * 5315 = 8343.84096259 (S)
+

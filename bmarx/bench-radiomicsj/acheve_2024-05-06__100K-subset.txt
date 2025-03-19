@@ -1,0 +1,154 @@
+
+TEXTURE (100K subset)
+
+Compute at 99993
+Compute at 99994
+Compute at 99995
+Compute at 99996
+Compute at 99997
+Compute at 99998
+Compute at 99999
+Compute at 100000
+>>> started 2024.05.06.22.04.51
+>>> finished 2024.05.06.23.37.07
+>>> elapsed 5535470 milliseconds
+finish calculation, result save to /home/kharchenkoa2/work/data/OUT-radj-TEXTURE/RadiomicsFeatures-20240506233707293.csv
+++ date +%s
++ end=1715053034
++ echo 'Experiment: /home/kharchenkoa2/work/data/decathlon-n Elapsed Time: 5543 seconds'
+Experiment: /home/kharchenkoa2/work/data/decathlon-n Elapsed Time: 5543 seconds
++ printf '***\nJARPATH: /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar \nDATADIR: /home/kharchenkoa2/work/data/decathlon-n \nOUTDIR: /home/kharchenkoa2/work/data/OUT-radj-TEXTURE \nSETTINGSFILE: /home/kharchenkoa2/work/bench-radiomicsj/settings_2D_example_TEXTURE.properties \nElapsed Time: 5543 seconds \n'
++ date
+Mon May  6 23:37:14 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-radiomicsj]$
+
+***************************
+
+INTEN (100K subset)
+
+Compute at 99983
+Compute at 99984
+Compute at 99985
+Compute at 99986
+Compute at 99987
+Compute at 99988
+Compute at 99989
+Compute at 99990
+Compute at 99991
+Compute at 99992
+Compute at 99993
+Compute at 99994
+Compute at 99995
+Compute at 99996
+Compute at 99997
+Compute at 99998
+Compute at 99999
+Compute at 100000
+Something strange skip this images and masks stack pair -> images and masks
+java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 76
+        at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+        at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+        at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+        at java.base/java.util.Objects.checkIndex(Objects.java:372)
+        at java.base/java.util.ArrayList.get(ArrayList.java:459)
+        at com.vis.radiomics.features.IntensityVolumeHistogramFeatures.getIntensityAtVolumeFraction(IntensityVolumeHistogramFeatures.java:423)
+        at com.vis.radiomics.features.IntensityVolumeHistogramFeatures.calculate(IntensityVolumeHistogramFeatures.java:134)
+        at com.vis.radiomics.main.RadiomicsJ.compute(RadiomicsJ.java:1510)
+        at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1322)
+        at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1293)
+        at com.vis.radiomics.main.RadiomicsJ.execute(RadiomicsJ.java:1198)
+        at com.vis.radiomics.main.RadiomicsJ.main(RadiomicsJ.java:193)
+>>> started 2024.05.06.21.57.34
+>>> finished 2024.05.06.23.17.17
+>>> elapsed 4782739 milliseconds
+finish calculation, result save to /home/kharchenkoa2/work/data/OUT-radj-INTEN/RadiomicsFeatures-20240506231717506.csv
+++ date +%s
++ end=1715051842
++ echo 'Experiment: /home/kharchenkoa2/work/data/decathlon-n Elapsed Time: 4788 seconds'
+Experiment: /home/kharchenkoa2/work/data/decathlon-n Elapsed Time: 4788 seconds
++ printf '***\nJARPATH: /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar \nDATADIR: /home/kharchenkoa2/work/data/decathlon-n \nOUTDIR: /home/kharchenkoa2/work/data/OUT-radj-INTEN \nSETTINGSFILE: /home/kharchenkoa2/work/bench-radiomicsj/settings_2D_example_INTEN.properties \nElapsed Time: 4788 seconds \n'
++ date
+Mon May  6 23:17:22 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-radiomicsj]$ ^C
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-radiomicsj]$
+
+******************************
+
+SHAPE (100K subset)
+
+========== roi range ==========
+x min 0.0 x max 30.0
+y min 0.0 y max 18.0
+z min 0.0 z max 0.0
+===============================
+Compute at 99994
+========== roi range ==========
+x min 0.0 x max 28.0
+y min 0.0 y max 16.0
+z min 0.0 z max 0.0
+===============================
+Compute at 99995
+========== roi range ==========
+x min 0.0 x max 28.0
+y min 0.0 y max 16.0
+z min 0.0 z max 0.0
+===============================
+Compute at 99996
+========== roi range ==========
+x min 0.0 x max 8.0
+y min 0.0 y max 7.0
+z min 0.0 z max 0.0
+===============================
+Compute at 99997
+========== roi range ==========
+x min 0.0 x max 8.0
+y min 0.0 y max 7.0
+z min 0.0 z max 0.0
+===============================
+Compute at 99998
+========== roi range ==========
+x min 0.0 x max 8.0
+y min 0.0 y max 7.0
+z min 0.0 z max 0.0
+===============================
+Compute at 99999
+========== roi range ==========
+x min 0.0 x max 5.0
+y min 0.0 y max 6.0
+z min 0.0 z max 0.0
+===============================
+Compute at 100000
+========== roi range ==========
+x min 0.0 x max 2.0
+y min 0.0 y max 5.0
+z min 0.0 z max 0.0
+===============================
+>>> started 2024.05.06.22.03.53
+>>> finished 2024.05.06.23.47.08
+>>> elapsed 6194796 milliseconds
+finish calculation, result save to /home/kharchenkoa2/work/data/OUT-radj-SHAPE/RadiomicsFeatures-20240506234708499.csv
+++ date +%s
++ end=1715053630
++ echo 'Experiment: /home/kharchenkoa2/work/data/decathlon-n Elapsed Time: 6197 seconds'
+Experiment: /home/kharchenkoa2/work/data/decathlon-n Elapsed Time: 6197 seconds
++ printf '***\nJARPATH: /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar \nDATADIR: /home/kharchenkoa2/work/data/decathlon-n \nOUTDIR: /home/kharchenkoa2/work/data/OUT-radj-SHAPE \nSETTINGSFILE: /home/kharchenkoa2/work/bench-radiomicsj/settings_2D_example_SHAPE.properties \nElapsed Time: 6197 seconds \n'
++ date
+Mon May  6 23:47:10 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-radiomicsj]$
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-radiomicsj]$
+
+**************************
+
+PREDICTION
+
+	INTEN:	308904 / 100000 * 4788 = 14790.32352 (s)
+	SHAPE:	308904 / 100000 * 6197 = 19142.78088
+	TEXTURE: 308904 / 100000 * 5543 = 17122.54872
+
+
+
+
+
+
+
+

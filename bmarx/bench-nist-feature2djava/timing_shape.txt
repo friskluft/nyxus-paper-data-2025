@@ -1,0 +1,7 @@
+***
+Feature2DJava_Area,Feature2DJava_Aspect_Ratio_BB,Feature2DJava_Bounding_Box,Feature2DJava_Center_BB,Feature2DJava_Centroid,Feature2DJava_Circularity,Feature2DJava_Distance_From_Border,Feature2DJava_Eccentricity,Feature2DJava_ExtendBB,Feature2DJava_Orientation,Feature2DJava_Perimeter
+/data/decathlon/output/seg
+54 seconds
+26 seconds
+26 seconds
+6076 seconds

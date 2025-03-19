@@ -1,0 +1,32 @@
+7805.294182 s	 99.993668 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z150_t000.ome.tif
+7805.310082 s	 99.994002 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z150_t001.ome.tif
+7805.326095 s	 99.994335 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z150_t002.ome.tif
+7805.341614 s	 99.994668 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z150_t003.ome.tif
+7805.357877 s	 99.995001 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z151_t000.ome.tif
+7805.373512 s	 99.995335 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z151_t001.ome.tif
+7805.389244 s	 99.995668 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z151_t002.ome.tif
+7805.404808 s	 99.996001 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z151_t003.ome.tif
+7805.420279 s	 99.996334 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z152_t000.ome.tif
+7805.436111 s	 99.996668 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z152_t001.ome.tif
+7805.451601 s	 99.997001 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z152_t002.ome.tif
+7805.467261 s	 99.997334 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z152_t003.ome.tif
+7805.482796 s	 99.997667 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z153_t000.ome.tif
+7805.498204 s	 99.998001 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z153_t001.ome.tif
+7805.513562 s	 99.998334 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z153_t002.ome.tif
+7805.529161 s	 99.998667 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z153_t003.ome.tif
+7805.544419 s	 99.999000 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z154_t000.ome.tif
+7805.560076 s	 99.999334 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z154_t001.ome.tif
+7805.575645 s	 99.999667 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z154_t002.ome.tif
+7805.590767 s	 100.000000 %	/home/kharchenkoa2/work/data/decathlon/output/int\BRATS_484_z154_t003.ome.tif
+>> >> >> >> >> >>>>>>>>>>>>>>>> >> >> >> >> itemized timing (sec)	intensity 171.094672	shape 1215.320339	texture 887.963591
+>> >> >> Elapsed time is 7822.809359 seconds.
+>> >> [kharchenkoa2@ncats-polus-lnx-dev03 work]$ 
+
+
+Calculating I/O part: 7822.809359 - (intensity 171.094672 + shape 1215.320339 + texture 887.963591) = 5548.430757
+
+Predicted independent ...
+	...INTEN run: I/O 5548.430757 + intensity 171.094672 = 5719.525429
+	...SHAPE run: I/O 5548.430757 + shape 1215.320339 = 6763.751096
+	...TEXTURE run: I/O 5548.430757 + texture 887.963591 = 6436.394348
+

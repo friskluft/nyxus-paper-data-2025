@@ -1,0 +1,8 @@
+*** INTEN
+Tue May  7 13:30:04 EDT 2024
+EXEPATH /home/kharchenkoa2/work/windcharm-morphology/build3/wndchrm.exe
+IDIR /home/kharchenkoa2/work/data/decathlon/output/int
+SDIR /home/kharchenkoa2/work/data/decathlon/output/seg
+ODIR /home/kharchenkoa2/work/data/OUT-wc-INTEN
+processing...
+Elapsed Time: 3113 seconds

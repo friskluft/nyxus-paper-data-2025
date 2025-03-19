@@ -1,0 +1,49 @@
+------------------Params output dir /data/OUT-nistjavaplugin-shape/
+------------------Params table name BRATS_484_z153_t002.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-shape/BRATS_484_z153_t002.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-shape/
+------------------Params table name BRATS_484_z153_t003.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-shape/BRATS_484_z153_t003.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-shape/
+------------------Params table name BRATS_484_z154_t000.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-shape/BRATS_484_z154_t000.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-shape/
+------------------Params table name BRATS_484_z154_t001.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-shape/BRATS_484_z154_t001.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-shape/
+------------------Params table name BRATS_484_z154_t002.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-shape/BRATS_484_z154_t002.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-shape/
+------------------Params table name BRATS_484_z154_t003.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-shape/BRATS_484_z154_t003.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Feature Extraction completed. Duration: 01:41:03.453 (1 hour(s) 41 minute(s) 03 second(s))
+++ date +%s
++ end=1714957620
++ echo 'Elapsed Time: 6076 seconds'
+Elapsed Time: 6076 seconds
++ echo '6076 seconds'
++ date
+Sun May  5 21:07:00 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-nist-feature2djava]$
+

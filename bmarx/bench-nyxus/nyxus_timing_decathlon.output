@@ -1,0 +1,77 @@
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 5836 seconds 
+***
+Mon May  6 08:55:21 EDT 2024
+/home/kharchenkoa2/work/data/decathlon-mini
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon-mini/int --segDir=/home/kharchenkoa2/work/data/decathlon-mini/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 28 seconds 
+***
+Mon May  6 10:37:29 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 5988 seconds 
+***
+Wed May  8 07:28:07 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=30 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 4700 seconds 
+***
+Wed May  8 09:01:51 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=10 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 4481 seconds 
+***
+Wed May  8 10:02:19 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=10 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL_INTENSITY* --reduceThreads=8 
+Elapsed Time: 1939 seconds 
+***
+Thu May  9 10:34:24 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=10 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL_INTENSITY* --reduceThreads=8 
+Elapsed Time: 2078 seconds 
+***
+Thu May 23 06:42:58 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=30 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*GABOR* --reduceThreads=8 
+Elapsed Time: 0 seconds 
+***
+Thu May 23 13:42:27 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 0 seconds 
+***
+Thu May 23 13:42:30 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 0 seconds 
+***
+Thu May 23 16:37:14 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 10435 seconds 
+***
+Thu May 23 20:33:50 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --useGpu=true --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 9487 seconds 
+***
+Fri May 24 05:33:44 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --useGpu=true --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 4 seconds 
+***
+Fri May 24 06:17:42 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --useGpu=true --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 2 seconds 
+***
+Fri May 24 09:31:27 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --useGpu=true --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 9531 seconds 
+***
+Fri May 24 14:41:50 EDT 2024
+/home/kharchenkoa2/work/data/decathlon/output
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --useGpu=true --intDir=/home/kharchenkoa2/work/data/decathlon/output/int --segDir=/home/kharchenkoa2/work/data/decathlon/output/seg --coarseGrayDepth=100 --features=*ALL* --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --outputType=singlecsv --reduceThreads=8 
+Elapsed Time: 9499 seconds 

@@ -1,0 +1,54 @@
+***
+command was run:   python ./run-imea-ec2p5.py
+***
+
+99.99266862170087 %     43042 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_172_z137_t000.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_172_z137_t000.ome.tif : no ROI
+99.99300186616902 %     43042 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_036_z076_t000.ome.tif
+        LABELS 1 2 DONE
+99.99333511063716 %     43042 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_248_z064_t001.ome.tif
+        LABELS 1 2 3 DONE
+99.9936683551053 %      43042 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_126_z019_t001.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_126_z019_t001.ome.tif : no ROI
+99.99400159957345 %     43042 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_055_z001_t003.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_055_z001_t003.ome.tif : no ROI
+99.99433484404159 %     43042 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_294_z129_t000.ome.tif
+        LABELS 1 2 3 DONE
+99.99466808850973 %     43043 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_143_z050_t002.ome.tif
+        LABELS 1 2 DONE
+99.99500133297788 %     43043 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_281_z077_t003.ome.tif
+        LABELS 1 2 3 DONE
+99.99533457744602 %     43043 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_051_z079_t003.ome.tif
+        LABELS 1 2 3 DONE
+99.99566782191415 %     43044 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_076_z060_t001.ome.tif
+        LABELS 1 2 3 DONE
+99.9960010663823 %      43044 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_441_z046_t000.ome.tif
+        LABELS 1 2 3 DONE
+99.99633431085044 %     43045 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_411_z046_t003.ome.tif
+        LABELS 1 3 DONE
+99.99666755531858 %     43045 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_108_z121_t003.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_108_z121_t003.ome.tif : no ROI
+99.99700079978673 %     43045 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_262_z074_t000.ome.tif
+        LABELS 1 2 3 DONE
+99.99733404425487 %     43045 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_086_z089_t000.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_086_z089_t000.ome.tif : no ROI
+99.99766728872301 %     43045 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_121_z036_t001.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_121_z036_t001.ome.tif : no ROI
+99.99800053319115 %     43045 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_387_z066_t003.ome.tif
+        LABELS 1 2 3 DONE
+99.99833377765928 %     43046 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_025_z035_t001.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_025_z035_t001.ome.tif : no ROI
+99.99866702212744 %     43046 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_336_z019_t000.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_336_z019_t000.ome.tif : no ROI
+99.99900026659557 %     43046 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_256_z124_t001.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_256_z124_t001.ome.tif : no ROI
+99.99933351106371 %     43046 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_351_z035_t001.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_351_z035_t001.ome.tif : no ROI
+99.99966675553186 %     43046 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_274_z041_t001.ome.tif
+        LABELS 1 2 3 DONE
+100.0 % 43047 s file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_307_z034_t003.ome.tif
+        LABELS file /home/kharchenkoa2/work/data/decathlon/output/seg/BRATS_307_z034_t003.ome.tif : no ROI
+43047 seconds
+326421 microseconds
+(SOFT1) [kharchenkoa2@ncats-polus-lnx-dev03 bench-imea]$
+

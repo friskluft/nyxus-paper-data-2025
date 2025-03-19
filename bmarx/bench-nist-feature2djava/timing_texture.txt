@@ -1,0 +1,7 @@
+96 seconds
+***
+Mon May  6 06:20:56 EDT 2024
+/data/decathlon/output/int
+/data/decathlon/output/seg
+Feature2DJava_TContrast,Feature2DJava_TCorrelation,Feature2DJava_THomogeneity,Feature2DJava_TEnergy,Feature2DJava_TVariance,Feature2DJava_TEntropy,Feature2DJava_TInvDiffMoment,Feature2DJava_TSumAverage,Feature2DJava_TSumVariance,Feature2DJava_TSumEntropy,Feature2DJava_TDiffAverage,Feature2DJava_TDiffVariance,Feature2DJava_TDiffEntropy
+5680 seconds

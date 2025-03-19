@@ -1,0 +1,1071 @@
+.
+├── benchmark_all.sh
+├── benchmark_single.sh
+├── feature_selection.txt
+├── out
+│   └── ALL.csv
+├── out_ALL
+├── radiomaticsJ_benchmark
+│   ├── benchmark_all.sh
+│   ├── benchmark_single.sh
+│   ├── feature_selection.txt
+│   ├── IBSI_ValidationFile.xlsx
+│   ├── LICENSE
+│   ├── out_ALL
+│   ├── out_Fractal_Diagnostics
+│   ├── out_Morphological_Shape2D
+│   ├── Params.properties
+│   ├── ParamsTestCT_PAT1_Config_C.properties
+│   ├── ParamsTestCT_PAT1_Config_D.properties
+│   ├── ParamsTestDigitalPhantom1.properties
+│   ├── ParamsTest_Force2D_CT_PAT1_Config_C.properties
+│   ├── ParamsTestPET.properties
+│   ├── pom.xml
+│   ├── Properties.properties
+│   ├── README.md
+│   ├── run-accuracy.sh
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   ├── fiji
+│   │   │   │   │   └── plugins
+│   │   │   │   │       ├── Convex_Hull3DTool.java
+│   │   │   │   │       ├── Ellipsoid_3DTool.java
+│   │   │   │   │       └── Reslice_Z.java
+│   │   │   │   ├── RadiomicsJ
+│   │   │   │   │   ├── BettiNumberMap.java
+│   │   │   │   │   ├── DiagnosticsInfo.java
+│   │   │   │   │   ├── DiagnosticsInfoType.java
+│   │   │   │   │   ├── FractalFeatures.java
+│   │   │   │   │   ├── FractalFeatureType.java
+│   │   │   │   │   ├── GLCMFeatures.java
+│   │   │   │   │   ├── GLCMFeatureType.java
+│   │   │   │   │   ├── GLDZMFeatures.java
+│   │   │   │   │   ├── GLDZMFeatureType.java
+│   │   │   │   │   ├── GLRLMFeatures.java
+│   │   │   │   │   ├── GLRLMFeatureType.java
+│   │   │   │   │   ├── GLSZMFeatures.java
+│   │   │   │   │   ├── GLSZMFeatureType.java
+│   │   │   │   │   ├── ImageFiltering.java
+│   │   │   │   │   ├── ImagePreprocessing.java
+│   │   │   │   │   ├── IntensityBasedStatisticalFeatures.java
+│   │   │   │   │   ├── IntensityBasedStatisticalFeatureType.java
+│   │   │   │   │   ├── IntensityHistogramFeatures.java
+│   │   │   │   │   ├── IntensityHistogramFeatureType.java
+│   │   │   │   │   ├── IntensityVolumeHistogramFeatures.java
+│   │   │   │   │   ├── IntensityVolumeHistogramFeatureType.java
+│   │   │   │   │   ├── LocalIntensityFeatures.java
+│   │   │   │   │   ├── LocalIntensityFeatureType.java
+│   │   │   │   │   ├── MorphologicalFeatures.java
+│   │   │   │   │   ├── MorphologicalFeatureType.java
+│   │   │   │   │   ├── NGLDMFeatures.java
+│   │   │   │   │   ├── NGLDMFeatureType.java
+│   │   │   │   │   ├── NGTDMFeatures.java
+│   │   │   │   │   ├── NGTDMFeatureType.java
+│   │   │   │   │   ├── OperationalInfoFeatures.java
+│   │   │   │   │   ├── RadiomicsJ.java
+│   │   │   │   │   ├── SettingParams.java
+│   │   │   │   │   ├── Shape2DFeatures.java
+│   │   │   │   │   ├── Shape2DFeatureType.java
+│   │   │   │   │   ├── TestDataLoader.java
+│   │   │   │   │   └── Utils.java
+│   │   │   │   └── wavelet
+│   │   │   │       ├── ImageData.java
+│   │   │   │       ├── Wavelet_Denoise.java
+│   │   │   │       └── WaveletFilters.java
+│   │   │   └── resources
+│   │   │       ├── data_sets-master
+│   │   │       │   ├── ibsi_1_ct_radiomics_phantom
+│   │   │       │   │   ├── dicom
+│   │   │       │   │   │   ├── image
+│   │   │       │   │   │   │   ├── DCM_IMG_00000.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00001.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00002.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00003.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00004.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00005.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00006.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00007.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00008.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00009.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00010.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00011.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00012.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00013.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00014.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00015.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00016.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00017.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00018.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00019.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00020.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00021.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00022.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00023.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00024.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00025.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00026.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00027.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00028.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00029.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00030.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00031.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00032.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00033.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00034.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00035.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00036.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00037.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00038.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00039.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00040.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00041.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00042.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00043.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00044.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00045.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00046.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00047.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00048.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00049.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00050.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00051.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00052.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00053.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00054.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00055.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00056.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00057.dcm
+│   │   │       │   │   │   │   ├── DCM_IMG_00058.dcm
+│   │   │       │   │   │   │   └── DCM_IMG_00059.dcm
+│   │   │       │   │   │   └── mask
+│   │   │       │   │   │       └── DCM_RS_00060.dcm
+│   │   │       │   │   ├── LICENSE.md
+│   │   │       │   │   ├── nifti
+│   │   │       │   │   │   ├── image
+│   │   │       │   │   │   │   └── phantom.nii.gz
+│   │   │       │   │   │   └── mask
+│   │   │       │   │   │       └── mask.nii.gz
+│   │   │       │   │   └── README.md
+│   │   │       │   ├── ibsi_1_digital_phantom
+│   │   │       │   │   ├── dicom
+│   │   │       │   │   │   ├── image
+│   │   │       │   │   │   │   └── phantom.dcm
+│   │   │       │   │   │   └── mask
+│   │   │       │   │   │       └── mask.dcm
+│   │   │       │   │   ├── LICENSE.md
+│   │   │       │   │   ├── nifti
+│   │   │       │   │   │   ├── image
+│   │   │       │   │   │   │   └── phantom.nii.gz
+│   │   │       │   │   │   └── mask
+│   │   │       │   │   │       └── mask.nii.gz
+│   │   │       │   │   └── README.md
+│   │   │       │   └── README.md
+│   │   │       └── waveletfilters
+│   │   │           ├── biortho10.flt
+│   │   │           ├── biortho11.flt
+│   │   │           ├── biortho12.flt
+│   │   │           ├── biortho13.flt
+│   │   │           ├── biortho14.flt
+│   │   │           ├── biortho15.flt
+│   │   │           ├── biortho1.flt
+│   │   │           ├── biortho2.flt
+│   │   │           ├── biortho3.flt
+│   │   │           ├── biortho4.flt
+│   │   │           ├── biortho5.flt
+│   │   │           ├── biortho6.flt
+│   │   │           ├── biortho7.flt
+│   │   │           ├── biortho8.flt
+│   │   │           ├── biortho9.flt
+│   │   │           ├── coif1.flt
+│   │   │           ├── coif2.flt
+│   │   │           ├── coif3.flt
+│   │   │           ├── coif4.flt
+│   │   │           ├── coif5.flt
+│   │   │           ├── daub10.flt
+│   │   │           ├── daub11.flt
+│   │   │           ├── daub12.flt
+│   │   │           ├── daub13.flt
+│   │   │           ├── daub14.flt
+│   │   │           ├── daub15.flt
+│   │   │           ├── daub16.flt
+│   │   │           ├── daub17.flt
+│   │   │           ├── daub18.flt
+│   │   │           ├── daub19.flt
+│   │   │           ├── daub1.flt
+│   │   │           ├── daub20.flt
+│   │   │           ├── daub2.flt
+│   │   │           ├── daub3.flt
+│   │   │           ├── daub4.flt
+│   │   │           ├── daub5.flt
+│   │   │           ├── daub6.flt
+│   │   │           ├── daub7.flt
+│   │   │           ├── daub8.flt
+│   │   │           ├── daub9.flt
+│   │   │           ├── haar1.flt
+│   │   │           ├── meyer1.flt
+│   │   │           ├── revbiortho10.flt
+│   │   │           ├── revbiortho11.flt
+│   │   │           ├── revbiortho12.flt
+│   │   │           ├── revbiortho13.flt
+│   │   │           ├── revbiortho14.flt
+│   │   │           ├── revbiortho15.flt
+│   │   │           ├── revbiortho1.flt
+│   │   │           ├── revbiortho2.flt
+│   │   │           ├── revbiortho3.flt
+│   │   │           ├── revbiortho4.flt
+│   │   │           ├── revbiortho5.flt
+│   │   │           ├── revbiortho6.flt
+│   │   │           ├── revbiortho7.flt
+│   │   │           ├── revbiortho8.flt
+│   │   │           ├── revbiortho9.flt
+│   │   │           ├── sym10.flt
+│   │   │           ├── sym11.flt
+│   │   │           ├── sym12.flt
+│   │   │           ├── sym13.flt
+│   │   │           ├── sym14.flt
+│   │   │           ├── sym15.flt
+│   │   │           ├── sym16.flt
+│   │   │           ├── sym17.flt
+│   │   │           ├── sym18.flt
+│   │   │           ├── sym19.flt
+│   │   │           ├── sym20.flt
+│   │   │           ├── sym2.flt
+│   │   │           ├── sym3.flt
+│   │   │           ├── sym4.flt
+│   │   │           ├── sym5.flt
+│   │   │           ├── sym6.flt
+│   │   │           ├── sym7.flt
+│   │   │           ├── sym8.flt
+│   │   │           └── sym9.flt
+│   │   └── test
+│   │       ├── java
+│   │       │   ├── radiomics
+│   │       │   │   ├── TestDiagnostics.java
+│   │       │   │   ├── TestGLCMFeatures.java
+│   │       │   │   ├── TestGLDZMFeatures.java
+│   │       │   │   ├── TestGLRLMFeatures.java
+│   │       │   │   ├── TestGLSZMFeatures.java
+│   │       │   │   ├── Test_IJ_PlugIn.java
+│   │       │   │   ├── TestIntensityBasedStatisticalFeatures.java
+│   │       │   │   ├── TestIntensityHistogramFeatures.java
+│   │       │   │   ├── TestIntensityVolumeHistogramFeatures.java
+│   │       │   │   ├── TestLocalIntensityFeatures.java
+│   │       │   │   ├── TestMorphologicalFeatures.java
+│   │       │   │   ├── TestNGLDMFeatures.java
+│   │       │   │   ├── TestNGTDMFeatures.java
+│   │       │   │   ├── TestRadiomicsJ.java
+│   │       │   │   └── TestShape2D.java
+│   │       │   └── sandbox
+│   │       │       ├── Test3DFeret.java
+│   │       │       ├── TestAxisLength.java
+│   │       │       ├── TestImagePreprocessing.java
+│   │       │       ├── TestIntensity.java
+│   │       │       ├── TestInterpolation3D.java
+│   │       │       ├── TestNormalize.java
+│   │       │       ├── TestOthers.java
+│   │       │       ├── TestRangeFiltering.java
+│   │       │       ├── TestResample.java
+│   │       │       ├── TestStackRotateHorizontal.java
+│   │       │       └── TestWaveCoeffs.java
+│   │       └── resources
+│   │           └── data_sets-master
+│   │               ├── ibsi_1_ct_radiomics_phantom
+│   │               │   ├── dicom
+│   │               │   │   ├── image
+│   │               │   │   │   ├── DCM_IMG_00000.dcm
+│   │               │   │   │   ├── DCM_IMG_00001.dcm
+│   │               │   │   │   ├── DCM_IMG_00002.dcm
+│   │               │   │   │   ├── DCM_IMG_00003.dcm
+│   │               │   │   │   ├── DCM_IMG_00004.dcm
+│   │               │   │   │   ├── DCM_IMG_00005.dcm
+│   │               │   │   │   ├── DCM_IMG_00006.dcm
+│   │               │   │   │   ├── DCM_IMG_00007.dcm
+│   │               │   │   │   ├── DCM_IMG_00008.dcm
+│   │               │   │   │   ├── DCM_IMG_00009.dcm
+│   │               │   │   │   ├── DCM_IMG_00010.dcm
+│   │               │   │   │   ├── DCM_IMG_00011.dcm
+│   │               │   │   │   ├── DCM_IMG_00012.dcm
+│   │               │   │   │   ├── DCM_IMG_00013.dcm
+│   │               │   │   │   ├── DCM_IMG_00014.dcm
+│   │               │   │   │   ├── DCM_IMG_00015.dcm
+│   │               │   │   │   ├── DCM_IMG_00016.dcm
+│   │               │   │   │   ├── DCM_IMG_00017.dcm
+│   │               │   │   │   ├── DCM_IMG_00018.dcm
+│   │               │   │   │   ├── DCM_IMG_00019.dcm
+│   │               │   │   │   ├── DCM_IMG_00020.dcm
+│   │               │   │   │   ├── DCM_IMG_00021.dcm
+│   │               │   │   │   ├── DCM_IMG_00022.dcm
+│   │               │   │   │   ├── DCM_IMG_00023.dcm
+│   │               │   │   │   ├── DCM_IMG_00024.dcm
+│   │               │   │   │   ├── DCM_IMG_00025.dcm
+│   │               │   │   │   ├── DCM_IMG_00026.dcm
+│   │               │   │   │   ├── DCM_IMG_00027.dcm
+│   │               │   │   │   ├── DCM_IMG_00028.dcm
+│   │               │   │   │   ├── DCM_IMG_00029.dcm
+│   │               │   │   │   ├── DCM_IMG_00030.dcm
+│   │               │   │   │   ├── DCM_IMG_00031.dcm
+│   │               │   │   │   ├── DCM_IMG_00032.dcm
+│   │               │   │   │   ├── DCM_IMG_00033.dcm
+│   │               │   │   │   ├── DCM_IMG_00034.dcm
+│   │               │   │   │   ├── DCM_IMG_00035.dcm
+│   │               │   │   │   ├── DCM_IMG_00036.dcm
+│   │               │   │   │   ├── DCM_IMG_00037.dcm
+│   │               │   │   │   ├── DCM_IMG_00038.dcm
+│   │               │   │   │   ├── DCM_IMG_00039.dcm
+│   │               │   │   │   ├── DCM_IMG_00040.dcm
+│   │               │   │   │   ├── DCM_IMG_00041.dcm
+│   │               │   │   │   ├── DCM_IMG_00042.dcm
+│   │               │   │   │   ├── DCM_IMG_00043.dcm
+│   │               │   │   │   ├── DCM_IMG_00044.dcm
+│   │               │   │   │   ├── DCM_IMG_00045.dcm
+│   │               │   │   │   ├── DCM_IMG_00046.dcm
+│   │               │   │   │   ├── DCM_IMG_00047.dcm
+│   │               │   │   │   ├── DCM_IMG_00048.dcm
+│   │               │   │   │   ├── DCM_IMG_00049.dcm
+│   │               │   │   │   ├── DCM_IMG_00050.dcm
+│   │               │   │   │   ├── DCM_IMG_00051.dcm
+│   │               │   │   │   ├── DCM_IMG_00052.dcm
+│   │               │   │   │   ├── DCM_IMG_00053.dcm
+│   │               │   │   │   ├── DCM_IMG_00054.dcm
+│   │               │   │   │   ├── DCM_IMG_00055.dcm
+│   │               │   │   │   ├── DCM_IMG_00056.dcm
+│   │               │   │   │   ├── DCM_IMG_00057.dcm
+│   │               │   │   │   ├── DCM_IMG_00058.dcm
+│   │               │   │   │   └── DCM_IMG_00059.dcm
+│   │               │   │   └── mask
+│   │               │   │       └── DCM_RS_00060.dcm
+│   │               │   ├── LICENSE.md
+│   │               │   ├── nifti
+│   │               │   │   ├── image
+│   │               │   │   │   └── phantom.nii.gz
+│   │               │   │   └── mask
+│   │               │   │       └── mask.nii.gz
+│   │               │   └── README.md
+│   │               ├── ibsi_1_digital_phantom
+│   │               │   ├── dicom
+│   │               │   │   ├── image
+│   │               │   │   │   └── phantom.dcm
+│   │               │   │   └── mask
+│   │               │   │       └── mask.dcm
+│   │               │   ├── LICENSE.md
+│   │               │   ├── nifti
+│   │               │   │   ├── image
+│   │               │   │   │   └── phantom.nii.gz
+│   │               │   │   └── mask
+│   │               │   │       └── mask.nii.gz
+│   │               │   └── README.md
+│   │               └── README.md
+│   ├── target
+│   │   ├── archive-tmp
+│   │   ├── classes
+│   │   │   ├── data_sets-master
+│   │   │   │   ├── ibsi_1_ct_radiomics_phantom
+│   │   │   │   │   ├── dicom
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   ├── DCM_IMG_00000.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00001.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00002.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00003.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00004.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00005.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00006.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00007.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00008.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00009.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00010.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00011.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00012.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00013.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00014.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00015.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00016.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00017.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00018.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00019.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00020.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00021.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00022.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00023.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00024.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00025.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00026.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00027.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00028.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00029.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00030.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00031.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00032.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00033.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00034.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00035.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00036.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00037.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00038.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00039.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00040.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00041.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00042.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00043.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00044.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00045.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00046.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00047.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00048.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00049.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00050.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00051.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00052.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00053.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00054.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00055.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00056.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00057.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00058.dcm
+│   │   │   │   │   │   │   └── DCM_IMG_00059.dcm
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── DCM_RS_00060.dcm
+│   │   │   │   │   ├── LICENSE.md
+│   │   │   │   │   ├── nifti
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   └── phantom.nii.gz
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── mask.nii.gz
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── ibsi_1_digital_phantom
+│   │   │   │   │   ├── dicom
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   └── phantom.dcm
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── mask.dcm
+│   │   │   │   │   ├── LICENSE.md
+│   │   │   │   │   ├── nifti
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   └── phantom.nii.gz
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── mask.nii.gz
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── fiji
+│   │   │   │   └── plugins
+│   │   │   │       ├── Convex_Hull3DTool.class
+│   │   │   │       ├── Ellipsoid_3DTool.class
+│   │   │   │       └── Reslice_Z.class
+│   │   │   ├── RadiomicsJ
+│   │   │   │   ├── BettiNumberMap.class
+│   │   │   │   ├── DiagnosticsInfo.class
+│   │   │   │   ├── DiagnosticsInfoType.class
+│   │   │   │   ├── FractalFeatures.class
+│   │   │   │   ├── FractalFeatureType.class
+│   │   │   │   ├── GLCMFeatures.class
+│   │   │   │   ├── GLCMFeatureType.class
+│   │   │   │   ├── GLDZMFeatures.class
+│   │   │   │   ├── GLDZMFeatureType.class
+│   │   │   │   ├── GLRLMFeatures.class
+│   │   │   │   ├── GLRLMFeatureType.class
+│   │   │   │   ├── GLSZMFeatures.class
+│   │   │   │   ├── GLSZMFeatureType.class
+│   │   │   │   ├── ImageFiltering.class
+│   │   │   │   ├── ImagePreprocessing.class
+│   │   │   │   ├── IntensityBasedStatisticalFeatures.class
+│   │   │   │   ├── IntensityBasedStatisticalFeatureType.class
+│   │   │   │   ├── IntensityHistogramFeatures.class
+│   │   │   │   ├── IntensityHistogramFeatureType.class
+│   │   │   │   ├── IntensityVolumeHistogramFeatures.class
+│   │   │   │   ├── IntensityVolumeHistogramFeatureType.class
+│   │   │   │   ├── LocalIntensityFeatures.class
+│   │   │   │   ├── LocalIntensityFeatureType.class
+│   │   │   │   ├── MorphologicalFeatures.class
+│   │   │   │   ├── MorphologicalFeatureType.class
+│   │   │   │   ├── NGLDMFeatures.class
+│   │   │   │   ├── NGLDMFeatureType.class
+│   │   │   │   ├── NGTDMFeatures.class
+│   │   │   │   ├── NGTDMFeatureType.class
+│   │   │   │   ├── OperationalInfoFeatures.class
+│   │   │   │   ├── RadiomicsJ.class
+│   │   │   │   ├── SettingParams.class
+│   │   │   │   ├── Shape2DFeatures.class
+│   │   │   │   ├── Shape2DFeatureType.class
+│   │   │   │   ├── TestDataLoader.class
+│   │   │   │   └── Utils.class
+│   │   │   ├── wavelet
+│   │   │   │   ├── ImageData.class
+│   │   │   │   ├── Wavelet_Denoise$1.class
+│   │   │   │   ├── Wavelet_Denoise$2.class
+│   │   │   │   ├── Wavelet_Denoise$3.class
+│   │   │   │   ├── Wavelet_Denoise$4.class
+│   │   │   │   ├── Wavelet_Denoise.class
+│   │   │   │   ├── Wavelet_Denoise$Mode.class
+│   │   │   │   └── WaveletFilters.class
+│   │   │   └── waveletfilters
+│   │   │       ├── biortho10.flt
+│   │   │       ├── biortho11.flt
+│   │   │       ├── biortho12.flt
+│   │   │       ├── biortho13.flt
+│   │   │       ├── biortho14.flt
+│   │   │       ├── biortho15.flt
+│   │   │       ├── biortho1.flt
+│   │   │       ├── biortho2.flt
+│   │   │       ├── biortho3.flt
+│   │   │       ├── biortho4.flt
+│   │   │       ├── biortho5.flt
+│   │   │       ├── biortho6.flt
+│   │   │       ├── biortho7.flt
+│   │   │       ├── biortho8.flt
+│   │   │       ├── biortho9.flt
+│   │   │       ├── coif1.flt
+│   │   │       ├── coif2.flt
+│   │   │       ├── coif3.flt
+│   │   │       ├── coif4.flt
+│   │   │       ├── coif5.flt
+│   │   │       ├── daub10.flt
+│   │   │       ├── daub11.flt
+│   │   │       ├── daub12.flt
+│   │   │       ├── daub13.flt
+│   │   │       ├── daub14.flt
+│   │   │       ├── daub15.flt
+│   │   │       ├── daub16.flt
+│   │   │       ├── daub17.flt
+│   │   │       ├── daub18.flt
+│   │   │       ├── daub19.flt
+│   │   │       ├── daub1.flt
+│   │   │       ├── daub20.flt
+│   │   │       ├── daub2.flt
+│   │   │       ├── daub3.flt
+│   │   │       ├── daub4.flt
+│   │   │       ├── daub5.flt
+│   │   │       ├── daub6.flt
+│   │   │       ├── daub7.flt
+│   │   │       ├── daub8.flt
+│   │   │       ├── daub9.flt
+│   │   │       ├── haar1.flt
+│   │   │       ├── meyer1.flt
+│   │   │       ├── revbiortho10.flt
+│   │   │       ├── revbiortho11.flt
+│   │   │       ├── revbiortho12.flt
+│   │   │       ├── revbiortho13.flt
+│   │   │       ├── revbiortho14.flt
+│   │   │       ├── revbiortho15.flt
+│   │   │       ├── revbiortho1.flt
+│   │   │       ├── revbiortho2.flt
+│   │   │       ├── revbiortho3.flt
+│   │   │       ├── revbiortho4.flt
+│   │   │       ├── revbiortho5.flt
+│   │   │       ├── revbiortho6.flt
+│   │   │       ├── revbiortho7.flt
+│   │   │       ├── revbiortho8.flt
+│   │   │       ├── revbiortho9.flt
+│   │   │       ├── sym10.flt
+│   │   │       ├── sym11.flt
+│   │   │       ├── sym12.flt
+│   │   │       ├── sym13.flt
+│   │   │       ├── sym14.flt
+│   │   │       ├── sym15.flt
+│   │   │       ├── sym16.flt
+│   │   │       ├── sym17.flt
+│   │   │       ├── sym18.flt
+│   │   │       ├── sym19.flt
+│   │   │       ├── sym20.flt
+│   │   │       ├── sym2.flt
+│   │   │       ├── sym3.flt
+│   │   │       ├── sym4.flt
+│   │   │       ├── sym5.flt
+│   │   │       ├── sym6.flt
+│   │   │       ├── sym7.flt
+│   │   │       ├── sym8.flt
+│   │   │       └── sym9.flt
+│   │   ├── generated-sources
+│   │   │   └── annotations
+│   │   ├── generated-test-sources
+│   │   │   └── test-annotations
+│   │   ├── maven-archiver
+│   │   │   └── pom.properties
+│   │   ├── maven-status
+│   │   │   └── maven-compiler-plugin
+│   │   │       ├── compile
+│   │   │       │   └── default-compile
+│   │   │       │       ├── createdFiles.lst
+│   │   │       │       └── inputFiles.lst
+│   │   │       └── testCompile
+│   │   │           └── default-testCompile
+│   │   │               ├── createdFiles.lst
+│   │   │               └── inputFiles.lst
+│   │   ├── radiomics-0.0.1-SNAPSHOT.jar
+│   │   ├── RadiomicsJ-jar-with-dependencies.jar
+│   │   └── test-classes
+│   │       ├── data_sets-master
+│   │       │   ├── ibsi_1_ct_radiomics_phantom
+│   │       │   │   ├── dicom
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   ├── DCM_IMG_00000.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00001.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00002.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00003.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00004.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00005.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00006.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00007.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00008.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00009.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00010.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00011.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00012.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00013.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00014.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00015.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00016.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00017.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00018.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00019.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00020.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00021.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00022.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00023.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00024.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00025.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00026.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00027.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00028.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00029.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00030.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00031.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00032.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00033.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00034.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00035.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00036.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00037.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00038.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00039.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00040.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00041.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00042.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00043.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00044.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00045.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00046.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00047.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00048.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00049.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00050.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00051.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00052.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00053.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00054.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00055.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00056.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00057.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00058.dcm
+│   │       │   │   │   │   └── DCM_IMG_00059.dcm
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── DCM_RS_00060.dcm
+│   │       │   │   ├── LICENSE.md
+│   │       │   │   ├── nifti
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   └── phantom.nii.gz
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── mask.nii.gz
+│   │       │   │   └── README.md
+│   │       │   ├── ibsi_1_digital_phantom
+│   │       │   │   ├── dicom
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   └── phantom.dcm
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── mask.dcm
+│   │       │   │   ├── LICENSE.md
+│   │       │   │   ├── nifti
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   └── phantom.nii.gz
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── mask.nii.gz
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── radiomics
+│   │       │   ├── TestDiagnostics.class
+│   │       │   ├── TestGLCMFeatures.class
+│   │       │   ├── TestGLDZMFeatures.class
+│   │       │   ├── TestGLRLMFeatures.class
+│   │       │   ├── TestGLSZMFeatures.class
+│   │       │   ├── Test_IJ_PlugIn.class
+│   │       │   ├── TestIntensityBasedStatisticalFeatures.class
+│   │       │   ├── TestIntensityHistogramFeatures.class
+│   │       │   ├── TestIntensityVolumeHistogramFeatures.class
+│   │       │   ├── TestLocalIntensityFeatures.class
+│   │       │   ├── TestMorphologicalFeatures.class
+│   │       │   ├── TestNGLDMFeatures.class
+│   │       │   ├── TestNGTDMFeatures.class
+│   │       │   ├── TestRadiomicsJ.class
+│   │       │   └── TestShape2D.class
+│   │       └── sandbox
+│   │           ├── Test3DFeret.class
+│   │           ├── TestAxisLength.class
+│   │           ├── TestImagePreprocessing.class
+│   │           ├── TestIntensity.class
+│   │           ├── TestInterpolation3D.class
+│   │           ├── TestNormalize.class
+│   │           ├── TestOthers.class
+│   │           ├── TestRangeFiltering.class
+│   │           ├── TestResample.class
+│   │           ├── TestStackRotateHorizontal.class
+│   │           └── TestWaveCoeffs.class
+│   ├── target_save1
+│   │   ├── archive-tmp
+│   │   ├── classes
+│   │   │   ├── data_sets-master
+│   │   │   │   ├── ibsi_1_ct_radiomics_phantom
+│   │   │   │   │   ├── dicom
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   ├── DCM_IMG_00000.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00001.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00002.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00003.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00004.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00005.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00006.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00007.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00008.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00009.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00010.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00011.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00012.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00013.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00014.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00015.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00016.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00017.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00018.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00019.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00020.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00021.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00022.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00023.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00024.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00025.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00026.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00027.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00028.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00029.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00030.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00031.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00032.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00033.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00034.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00035.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00036.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00037.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00038.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00039.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00040.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00041.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00042.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00043.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00044.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00045.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00046.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00047.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00048.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00049.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00050.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00051.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00052.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00053.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00054.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00055.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00056.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00057.dcm
+│   │   │   │   │   │   │   ├── DCM_IMG_00058.dcm
+│   │   │   │   │   │   │   └── DCM_IMG_00059.dcm
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── DCM_RS_00060.dcm
+│   │   │   │   │   ├── LICENSE.md
+│   │   │   │   │   ├── nifti
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   └── phantom.nii.gz
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── mask.nii.gz
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── ibsi_1_digital_phantom
+│   │   │   │   │   ├── dicom
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   └── phantom.dcm
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── mask.dcm
+│   │   │   │   │   ├── LICENSE.md
+│   │   │   │   │   ├── nifti
+│   │   │   │   │   │   ├── image
+│   │   │   │   │   │   │   └── phantom.nii.gz
+│   │   │   │   │   │   └── mask
+│   │   │   │   │   │       └── mask.nii.gz
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── fiji
+│   │   │   │   └── plugins
+│   │   │   │       ├── Convex_Hull3DTool.class
+│   │   │   │       ├── Ellipsoid_3DTool.class
+│   │   │   │       └── Reslice_Z.class
+│   │   │   ├── RadiomicsJ
+│   │   │   │   ├── BettiNumberMap.class
+│   │   │   │   ├── DiagnosticsInfo.class
+│   │   │   │   ├── DiagnosticsInfoType.class
+│   │   │   │   ├── FractalFeatures.class
+│   │   │   │   ├── FractalFeatureType.class
+│   │   │   │   ├── GLCMFeatures.class
+│   │   │   │   ├── GLCMFeatureType.class
+│   │   │   │   ├── GLDZMFeatures.class
+│   │   │   │   ├── GLDZMFeatureType.class
+│   │   │   │   ├── GLRLMFeatures.class
+│   │   │   │   ├── GLRLMFeatureType.class
+│   │   │   │   ├── GLSZMFeatures.class
+│   │   │   │   ├── GLSZMFeatureType.class
+│   │   │   │   ├── ImageFiltering.class
+│   │   │   │   ├── ImagePreprocessing.class
+│   │   │   │   ├── IntensityBasedStatisticalFeatures.class
+│   │   │   │   ├── IntensityBasedStatisticalFeatureType.class
+│   │   │   │   ├── IntensityHistogramFeatures.class
+│   │   │   │   ├── IntensityHistogramFeatureType.class
+│   │   │   │   ├── IntensityVolumeHistogramFeatures.class
+│   │   │   │   ├── IntensityVolumeHistogramFeatureType.class
+│   │   │   │   ├── LocalIntensityFeatures.class
+│   │   │   │   ├── LocalIntensityFeatureType.class
+│   │   │   │   ├── MorphologicalFeatures.class
+│   │   │   │   ├── MorphologicalFeatureType.class
+│   │   │   │   ├── NGLDMFeatures.class
+│   │   │   │   ├── NGLDMFeatureType.class
+│   │   │   │   ├── NGTDMFeatures.class
+│   │   │   │   ├── NGTDMFeatureType.class
+│   │   │   │   ├── OperationalInfoFeatures.class
+│   │   │   │   ├── RadiomicsJ.class
+│   │   │   │   ├── SettingParams.class
+│   │   │   │   ├── Shape2DFeatures.class
+│   │   │   │   ├── Shape2DFeatureType.class
+│   │   │   │   ├── TestDataLoader.class
+│   │   │   │   └── Utils.class
+│   │   │   ├── wavelet
+│   │   │   │   ├── ImageData.class
+│   │   │   │   ├── Wavelet_Denoise$1.class
+│   │   │   │   ├── Wavelet_Denoise$2.class
+│   │   │   │   ├── Wavelet_Denoise$3.class
+│   │   │   │   ├── Wavelet_Denoise$4.class
+│   │   │   │   ├── Wavelet_Denoise.class
+│   │   │   │   ├── Wavelet_Denoise$Mode.class
+│   │   │   │   └── WaveletFilters.class
+│   │   │   └── waveletfilters
+│   │   │       ├── biortho10.flt
+│   │   │       ├── biortho11.flt
+│   │   │       ├── biortho12.flt
+│   │   │       ├── biortho13.flt
+│   │   │       ├── biortho14.flt
+│   │   │       ├── biortho15.flt
+│   │   │       ├── biortho1.flt
+│   │   │       ├── biortho2.flt
+│   │   │       ├── biortho3.flt
+│   │   │       ├── biortho4.flt
+│   │   │       ├── biortho5.flt
+│   │   │       ├── biortho6.flt
+│   │   │       ├── biortho7.flt
+│   │   │       ├── biortho8.flt
+│   │   │       ├── biortho9.flt
+│   │   │       ├── coif1.flt
+│   │   │       ├── coif2.flt
+│   │   │       ├── coif3.flt
+│   │   │       ├── coif4.flt
+│   │   │       ├── coif5.flt
+│   │   │       ├── daub10.flt
+│   │   │       ├── daub11.flt
+│   │   │       ├── daub12.flt
+│   │   │       ├── daub13.flt
+│   │   │       ├── daub14.flt
+│   │   │       ├── daub15.flt
+│   │   │       ├── daub16.flt
+│   │   │       ├── daub17.flt
+│   │   │       ├── daub18.flt
+│   │   │       ├── daub19.flt
+│   │   │       ├── daub1.flt
+│   │   │       ├── daub20.flt
+│   │   │       ├── daub2.flt
+│   │   │       ├── daub3.flt
+│   │   │       ├── daub4.flt
+│   │   │       ├── daub5.flt
+│   │   │       ├── daub6.flt
+│   │   │       ├── daub7.flt
+│   │   │       ├── daub8.flt
+│   │   │       ├── daub9.flt
+│   │   │       ├── haar1.flt
+│   │   │       ├── meyer1.flt
+│   │   │       ├── revbiortho10.flt
+│   │   │       ├── revbiortho11.flt
+│   │   │       ├── revbiortho12.flt
+│   │   │       ├── revbiortho13.flt
+│   │   │       ├── revbiortho14.flt
+│   │   │       ├── revbiortho15.flt
+│   │   │       ├── revbiortho1.flt
+│   │   │       ├── revbiortho2.flt
+│   │   │       ├── revbiortho3.flt
+│   │   │       ├── revbiortho4.flt
+│   │   │       ├── revbiortho5.flt
+│   │   │       ├── revbiortho6.flt
+│   │   │       ├── revbiortho7.flt
+│   │   │       ├── revbiortho8.flt
+│   │   │       ├── revbiortho9.flt
+│   │   │       ├── sym10.flt
+│   │   │       ├── sym11.flt
+│   │   │       ├── sym12.flt
+│   │   │       ├── sym13.flt
+│   │   │       ├── sym14.flt
+│   │   │       ├── sym15.flt
+│   │   │       ├── sym16.flt
+│   │   │       ├── sym17.flt
+│   │   │       ├── sym18.flt
+│   │   │       ├── sym19.flt
+│   │   │       ├── sym20.flt
+│   │   │       ├── sym2.flt
+│   │   │       ├── sym3.flt
+│   │   │       ├── sym4.flt
+│   │   │       ├── sym5.flt
+│   │   │       ├── sym6.flt
+│   │   │       ├── sym7.flt
+│   │   │       ├── sym8.flt
+│   │   │       └── sym9.flt
+│   │   ├── generated-sources
+│   │   │   └── annotations
+│   │   ├── generated-test-sources
+│   │   │   └── test-annotations
+│   │   ├── maven-archiver
+│   │   │   └── pom.properties
+│   │   ├── maven-status
+│   │   │   └── maven-compiler-plugin
+│   │   │       ├── compile
+│   │   │       │   └── default-compile
+│   │   │       │       ├── createdFiles.lst
+│   │   │       │       └── inputFiles.lst
+│   │   │       └── testCompile
+│   │   │           └── default-testCompile
+│   │   │               ├── createdFiles.lst
+│   │   │               └── inputFiles.lst
+│   │   ├── radiomics-0.0.1-SNAPSHOT.jar
+│   │   ├── RadiomicsJ-jar-with-dependencies.jar
+│   │   └── test-classes
+│   │       ├── data_sets-master
+│   │       │   ├── ibsi_1_ct_radiomics_phantom
+│   │       │   │   ├── dicom
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   ├── DCM_IMG_00000.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00001.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00002.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00003.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00004.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00005.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00006.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00007.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00008.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00009.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00010.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00011.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00012.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00013.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00014.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00015.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00016.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00017.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00018.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00019.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00020.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00021.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00022.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00023.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00024.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00025.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00026.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00027.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00028.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00029.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00030.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00031.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00032.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00033.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00034.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00035.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00036.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00037.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00038.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00039.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00040.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00041.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00042.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00043.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00044.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00045.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00046.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00047.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00048.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00049.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00050.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00051.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00052.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00053.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00054.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00055.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00056.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00057.dcm
+│   │       │   │   │   │   ├── DCM_IMG_00058.dcm
+│   │       │   │   │   │   └── DCM_IMG_00059.dcm
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── DCM_RS_00060.dcm
+│   │       │   │   ├── LICENSE.md
+│   │       │   │   ├── nifti
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   └── phantom.nii.gz
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── mask.nii.gz
+│   │       │   │   └── README.md
+│   │       │   ├── ibsi_1_digital_phantom
+│   │       │   │   ├── dicom
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   └── phantom.dcm
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── mask.dcm
+│   │       │   │   ├── LICENSE.md
+│   │       │   │   ├── nifti
+│   │       │   │   │   ├── image
+│   │       │   │   │   │   └── phantom.nii.gz
+│   │       │   │   │   └── mask
+│   │       │   │   │       └── mask.nii.gz
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── radiomics
+│   │       │   ├── TestDiagnostics.class
+│   │       │   ├── TestGLCMFeatures.class
+│   │       │   ├── TestGLDZMFeatures.class
+│   │       │   ├── TestGLRLMFeatures.class
+│   │       │   ├── TestGLSZMFeatures.class
+│   │       │   ├── Test_IJ_PlugIn.class
+│   │       │   ├── TestIntensityBasedStatisticalFeatures.class
+│   │       │   ├── TestIntensityHistogramFeatures.class
+│   │       │   ├── TestIntensityVolumeHistogramFeatures.class
+│   │       │   ├── TestLocalIntensityFeatures.class
+│   │       │   ├── TestMorphologicalFeatures.class
+│   │       │   ├── TestNGLDMFeatures.class
+│   │       │   ├── TestNGTDMFeatures.class
+│   │       │   ├── TestRadiomicsJ.class
+│   │       │   └── TestShape2D.class
+│   │       └── sandbox
+│   │           ├── Test3DFeret.class
+│   │           ├── TestAxisLength.class
+│   │           ├── TestImagePreprocessing.class
+│   │           ├── TestIntensity.class
+│   │           ├── TestInterpolation3D.class
+│   │           ├── TestNormalize.class
+│   │           ├── TestOthers.class
+│   │           ├── TestRangeFiltering.class
+│   │           ├── TestResample.class
+│   │           ├── TestStackRotateHorizontal.class
+│   │           └── TestWaveCoeffs.class
+│   ├── timing_ALL.txt
+│   ├── timing_Fractal_Diagnostics.txt
+│   ├── timing_Morphological_Shape2D.txt
+│   └── timing_radiomicsJ-accuracy.txt
+├── __thisdirectory
+├── timing_ALL.txt
+└── timing_radiomicsJ-accuracy.txt
+
+154 directories, 914 files

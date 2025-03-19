@@ -1,0 +1,50 @@
+processing slide BRATS_062_z049_t002_roi0002.nrd
+99.99287804625385 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_309_z065_t002_roi0003.nrd
+processing slide BRATS_309_z065_t002_roi0003.nrd
+99.99320177142414 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_433_z094_t003_roi0001.nrd
+processing slide BRATS_433_z094_t003_roi0001.nrd
+99.99352549659442 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_360_z105_t001_roi0002.nrd
+processing slide BRATS_360_z105_t001_roi0002.nrd
+99.99384922176469 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_339_z066_t000_roi0002.nrd
+processing slide BRATS_339_z066_t000_roi0002.nrd
+99.99417294693497 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_082_z070_t000_roi0003.nrd
+processing slide BRATS_082_z070_t000_roi0003.nrd
+99.99449667210524 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_111_z066_t003_roi0003.nrd
+processing slide BRATS_111_z066_t003_roi0003.nrd
+99.99482039727553 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_117_z070_t002_roi0001.nrd
+processing slide BRATS_117_z070_t002_roi0001.nrd
+99.99514412244581 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_462_z072_t000_roi0001.nrd
+processing slide BRATS_462_z072_t000_roi0001.nrd
+99.9954678476161 %      2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_408_z113_t001_roi0001.nrd
+processing slide BRATS_408_z113_t001_roi0001.nrd
+99.99579157278636 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_362_z072_t000_roi0003.nrd
+processing slide BRATS_362_z072_t000_roi0003.nrd
+99.99611529795665 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_406_z086_t003_roi0003.nrd
+processing slide BRATS_406_z086_t003_roi0003.nrd
+99.99643902312692 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_263_z041_t003_roi0002.nrd
+processing slide BRATS_263_z041_t003_roi0002.nrd
+99.99676274829721 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_352_z063_t002_roi0001.nrd
+processing slide BRATS_352_z063_t002_roi0001.nrd
+99.99708647346749 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_120_z118_t001_roi0001.nrd
+processing slide BRATS_120_z118_t001_roi0001.nrd
+99.99741019863777 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_285_z076_t001_roi0002.nrd
+processing slide BRATS_285_z076_t001_roi0002.nrd
+99.99773392380804 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_269_z072_t000_roi0003.nrd
+processing slide BRATS_269_z072_t000_roi0003.nrd
+99.99805764897832 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_104_z051_t002_roi0003.nrd
+processing slide BRATS_104_z051_t002_roi0003.nrd
+99.99838137414861 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_389_z074_t003_roi0001.nrd
+processing slide BRATS_389_z074_t003_roi0001.nrd
+99.99870509931888 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_234_z083_t002_roi0003.nrd
+processing slide BRATS_234_z083_t002_roi0003.nrd
+99.99902882448917 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_222_z071_t002_roi0001.nrd
+processing slide BRATS_222_z071_t002_roi0001.nrd
+99.99935254965943 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_072_z032_t001_roi0001.nrd
+processing slide BRATS_072_z032_t001_roi0001.nrd
+99.99967627482972 %     2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_040_z086_t003_roi0001.nrd
+processing slide BRATS_040_z086_t003_roi0001.nrd
+100.0 % 2576 s  file /home/kharchenkoa2/work/data/decathlon-splitroi-nrrd/seg/BRATS_243_z034_t002_roi0001.nrd
+processing slide BRATS_243_z034_t002_roi0001.nrd
+2576 seconds
+532108 microseconds
+(SOFT1) [kharchenkoa2@ncats-polus-lnx-dev03 bench-mitk2024]$ python ./run-mitk-decathlon-INTEN.py

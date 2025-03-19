@@ -1,0 +1,61 @@
+[ 990 =   99% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r96_c0.ome.tif
+[ 991 = 99.1% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r96_c1.ome.tif
+[ 992 = 99.2% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r97_c0.ome.tif
+[ 993 = 99.3% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r97_c1.ome.tif
+[ 994 = 99.4% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r98_c0.ome.tif
+[ 995 = 99.5% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r98_c1.ome.tif
+[ 996 = 99.6% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r99_c0.ome.tif
+[ 997 = 99.7% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r99_c1.ome.tif
+[ 998 = 99.8% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r9_c0.ome.tif
+[ 999 = 99.9% ] /home/kharchenkoa2/work/data/tissuenet1000/int/p1_y2_r9_c1.ome.tif
+--------------------
+Total time of all feature groups [sec] = 147.12
+Break-down:
+--------------------
+Gabor/Gabor/Gabor/#f58231       10.42%  1.533e+07
+Image scan1/ImgScan1/Scan1/lightsteelblue       0.02%   31586.6
+Image scan2a/ImgScan2a/Scan2a/lightsteelblue    3.11%   4.58035e+06
+Image scan2b/ImgScan2b/Scan2b/lightsteelblue    0.85%   1.25659e+06
+Image scan3/ImgScan3/Scan3/lightsteelblue       0.01%   8288.88
+Intensity/Intensity/Int/#FFFF00 0.84%   1.22951e+06
+Moments/Moments/2D moms/#FFFACD 16.68%  2.45455e+07
+Morphology/Basic/E/#4aaaea      0.22%   316547
+Morphology/Chords/Ch/#4aaaea    1.76%   2.59663e+06
+Morphology/Contour/C/#4aaaea    0.38%   561246
+Morphology/Ellipticity/E/#4aaaea        0.15%   227468
+Morphology/Erosion/Er/#4aaaea   1.82%   2.67648e+06
+Morphology/Euler/Eu/#4aaaea     0.21%   307560
+Morphology/Extrema/Ex/#4aaaea   0.16%   231559
+Morphology/Feret/F/#4aaaea      0.22%   316634
+Morphology/Fractal dimension/Fd/#4aaaea 0.27%   394411
+Morphology/HexPolygEncloInsCircleGeodetLenThickness/HP/#4aaaea  0.78%   1.14726e+06
+Morphology/Hull/H/#4aaaea       0.23%   331377
+Morphology/Martin/M/#4aaaea     0.52%   762077
+Morphology/Nassenstein/N/#4aaaea        0.51%   749730
+Morphology/RoiR/R/#4aaaea       0.77%   1.13752e+06
+Neighbors/Neighbors/N/#FF69B4   0.74%   1.09362e+06
+RDistribution/Rdist/Rd/#00FFFF  1.29%   1.89516e+06
+RDistribution/Zernike/Rz/#00FFFF        0.85%   1.25699e+06
+Texture/GLCM/GLCM/#bbbbbb       43%     6.32559e+07
+Texture/GLDM/D/#bbbbbb  0.67%   990232
+Texture/GLDZM/DZ/#bbbbbb        1.2%    1.77182e+06
+Texture/GLRLM/RL/#bbbbbb        2.35%   3.46101e+06
+Texture/GLSZM/SZ/#bbbbbb        8.45%   1.24333e+07
+Texture/NGLDM/NG/#bbbbbb        0.66%   965935
+Texture/NGTDM/NG/#bbbbbb        0.85%   1.25741e+06
+--------------------
+
+>>> STARTED >>> 2024-06-04 19:28:35
+>>> FINISHED >>>        2024-06-04 19:31:33
+++ date +%s
++ end=1717543893
++ echo 'Elapsed Time: 178 seconds'
+Elapsed Time: 178 seconds
++ echo '***'
++ date
++ echo /home/kharchenkoa2/work/data/tissuenet1000
++ printf 'Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=false --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 \n'
++ printf 'Elapsed Time: 178 seconds \n'
++ date
+Tue Jun  4 19:31:33 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-nyxus]$

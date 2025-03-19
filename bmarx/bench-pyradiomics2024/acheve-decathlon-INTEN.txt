@@ -1,0 +1,56 @@
++ echo '--------------------- timestamp: 949 s'
+--------------------- timestamp: 949 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z115_t003_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z115_t003_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z115_t003_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t000_roi0001.tif
+++ date +%s
++ tentEnd=1714761410
++ echo '--------------------- timestamp: 949 s'
+--------------------- timestamp: 949 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t000_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t000_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t000_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t000_roi0002.tif
+++ date +%s
++ tentEnd=1714761411
++ echo '--------------------- timestamp: 950 s'
+--------------------- timestamp: 950 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t000_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t000_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t000_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t001_roi0001.tif
+++ date +%s
++ tentEnd=1714761411
++ echo '--------------------- timestamp: 950 s'
+--------------------- timestamp: 950 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t001_roi0002.tif
+++ date +%s
++ tentEnd=1714761412
++ echo '--------------------- timestamp: 951 s'
+--------------------- timestamp: 951 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t001_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t001_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t001_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t002_roi0001.tif
+++ date +%s
++ tentEnd=1714761412
++ echo '--------------------- timestamp: 951 s'
+--------------------- timestamp: 951 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t002_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t002_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t002_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t002_roi0002.tif
+++ date +%s
++ tentEnd=1714761412
++ echo '--------------------- timestamp: 951 s'
+--------------------- timestamp: 951 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t002_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t002_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t002_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_004_z116_t003_roi0001.tif
+++ date +%s
++ tentEnd=1714761413
++ echo '--------------------- timestamp: 952 s'
+--------------------- timestamp: 952 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t003_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t003_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t003_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
+debug3: send packet: type 1
+client_loop: send disconnect: Broken pipe
+(base) [benchmarks/RadiomicsJ] $ 
+

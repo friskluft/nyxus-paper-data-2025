@@ -1,0 +1,40 @@
+TOTAL FILES
+
+	ls -1 /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int | wc -l
+
+	= 308904
+
+TEXTURE
+
+--------------------- timestamp: 14179 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_061_z089_t000_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_061_z089_t000_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-TEXTURE/BRATS_061_z089_t000_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_TEXTURE.yaml
+
+
+	ls -1 /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int | awk '{print NR "\t" $0}' | grep BRATS_061_z089_t000_roi0003
+	
+	= 38807
+
+	predicted time: 308904 / 38807 * 14179 = 112864.94
+
+SHAPE
+
+--------------------- timestamp: 10689 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z061_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z061_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z061_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+
+	ls -1 /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int | awk '{print NR "\t" $0}' | grep BRATS_049_z061_t001_roi0001	
+
+	= 30148
+
+	predicted time: 308904 / 30148 * 10689 = 109522.18
+
+INTEN
+
+--------------------- timestamp: 952 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_004_z116_t003_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_004_z116_t003_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-INTEN/BRATS_004_z116_t003_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction.yaml
+
+	ls -1 /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int | awk '{print NR "\t" $0}' | grep BRATS_004_z116_t003_roi0001
+
+	= 2599
+
+predicted time: 308904 / 2599 * 952 = 113149.91
+

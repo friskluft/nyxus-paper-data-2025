@@ -1,0 +1,932 @@
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z102_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z028_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z028_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z092_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z010_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z010_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z093_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z008_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z008_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z095_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z085_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z135_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z135_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z020_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z020_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z137_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z137_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z064_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z064_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z048_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z048_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z053_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z053_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z034_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z017_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z017_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z000_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z000_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z107_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z062_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z070_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z057_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z057_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z047_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z119_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z054_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z054_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z061_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z005_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z005_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z139_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z139_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z020_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z020_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z091_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z056_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z056_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z130_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z130_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z007_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z007_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z013_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z013_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z107_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z107_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z139_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z139_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z122_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z122_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z031_t003.ome.tif
+LABELS 1 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z080_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z056_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z056_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z006_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z006_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z076_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z007_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z007_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z073_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z012_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z012_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z133_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z133_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z061_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z061_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z060_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z124_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z124_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z104_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z041_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z138_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z138_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z035_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z013_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z013_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z028_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z028_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z094_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z097_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z096_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z032_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z101_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z124_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z124_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z070_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z145_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z145_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z030_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z030_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z118_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z118_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z014_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z014_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z057_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z038_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z118_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z118_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z100_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z116_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z148_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z148_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z053_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z031_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z031_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z010_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z010_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z013_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z013_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z148_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z148_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z112_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z022_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z022_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z021_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z021_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z069_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z099_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z029_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z129_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z129_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z018_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z018_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z096_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z135_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z135_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z032_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z034_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z034_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z117_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z046_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z046_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z112_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z007_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z007_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z092_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z063_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z147_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z147_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z033_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z125_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z125_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z049_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z049_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z079_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z018_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z018_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z048_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z074_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z099_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z009_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z009_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z113_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z113_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z070_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z150_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z150_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z023_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z023_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z004_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z004_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z014_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z014_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z153_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z153_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z120_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z120_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z043_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z043_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z131_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z131_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z071_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z026_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z026_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z091_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z117_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z117_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z083_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z075_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z130_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z130_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z057_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z001_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z001_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z149_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z149_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z044_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z060_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z060_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z085_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z045_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z093_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z065_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z065_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z022_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z022_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z107_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z107_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z019_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z019_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z084_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z055_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z061_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z061_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z125_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z125_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z042_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z142_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z142_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z091_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z079_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z131_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z131_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z060_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z074_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z064_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z133_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z133_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z071_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z120_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z120_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z023_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z023_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z006_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z006_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z080_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z139_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z139_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z134_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z134_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z154_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z154_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z045_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z076_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z118_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z118_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z124_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z037_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z013_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z013_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z146_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z146_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z069_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z095_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z041_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z041_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z113_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z113_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z030_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z104_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z098_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z123_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z123_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z081_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z101_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z082_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z012_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z012_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z012_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z012_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z102_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z007_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z007_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z080_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z019_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z019_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z124_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z124_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z147_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z147_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z117_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z143_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z143_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z077_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z004_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z004_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z132_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z132_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z013_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z013_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z078_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z006_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z006_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z136_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z136_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z127_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z087_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z058_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z058_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z130_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z130_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z048_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z048_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z123_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z104_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z104_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z096_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z025_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z025_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z110_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z021_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z021_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z140_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z140_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z061_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z154_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z154_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z101_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z054_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z054_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z107_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z108_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z108_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z091_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z014_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z014_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z002_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z002_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z045_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z045_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z153_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z153_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z149_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z149_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z085_t003.ome.tif
+LABELS 1 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z097_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z043_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z043_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z078_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z116_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z116_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z041_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z041_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z106_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z106_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z151_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z151_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z033_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z033_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z136_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z136_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z060_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z060_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z076_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z117_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z117_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z089_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z022_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z022_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z089_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z107_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z107_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z034_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z053_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z053_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z049_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z115_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z093_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z024_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z024_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z065_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z065_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z047_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z047_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z012_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z012_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z022_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z022_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z097_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z133_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z133_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z106_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z120_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z149_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z149_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z053_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z053_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z006_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z006_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z099_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z084_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z033_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z024_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z024_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z154_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z154_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z041_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z010_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z010_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z022_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z022_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z066_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z079_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z126_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z038_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z038_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z100_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z128_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z128_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z073_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z042_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z145_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z145_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z108_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z108_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z122_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z122_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z147_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z147_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z058_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z054_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z122_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z122_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z091_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z128_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z128_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z059_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z059_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z113_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z113_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z138_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z138_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z046_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z083_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z098_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z112_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z067_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z080_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z133_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z133_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z011_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z011_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z039_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z039_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z136_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z136_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z009_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z009_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z142_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z142_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z037_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z105_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z098_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z150_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z150_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z074_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z050_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z050_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z045_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z108_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z104_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z104_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z037_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z062_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z062_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z003_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z003_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z044_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z044_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z085_t002.ome.tif
+LABELS 1 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z047_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z047_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z010_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z010_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z016_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z016_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z098_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z105_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z105_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z026_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z026_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z026_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z026_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z114_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z114_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z005_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z005_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z038_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z143_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z143_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z137_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z137_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z123_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z029_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z090_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z139_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z139_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z101_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z079_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z001_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z001_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z000_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z000_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z099_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z044_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z038_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z038_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z014_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z014_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z096_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z090_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z106_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z106_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z047_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z086_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z106_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z106_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z032_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z032_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z079_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z009_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z009_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z141_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z084_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z110_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z110_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z135_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z135_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z141_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z141_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z053_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z050_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z050_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z012_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z012_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z071_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z046_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z046_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z029_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z153_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z153_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z148_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z148_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z062_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z062_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z002_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z002_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z095_t000.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z019_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z019_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z000_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z000_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z019_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z019_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z122_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z015_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z015_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z045_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z045_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z151_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z151_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z136_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z136_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z143_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z143_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z097_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z131_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z131_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z131_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z131_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z114_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z114_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z064_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z064_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z105_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z084_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z027_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z027_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z130_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z130_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z122_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z063_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z063_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z066_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z025_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z025_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z080_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z009_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z009_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z073_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z018_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z018_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z032_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z032_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z084_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z006_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z006_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z028_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z028_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z105_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z044_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z044_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z078_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z043_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z154_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z154_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z103_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z103_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z143_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z143_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z017_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z017_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z016_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z016_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z019_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z019_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z061_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z061_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z081_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z074_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z075_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z065_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z065_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z068_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z052_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z004_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z004_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z134_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z134_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z094_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z024_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z024_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z092_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z151_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z151_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z012_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z012_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z017_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z017_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z049_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z049_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z087_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z076_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z134_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z134_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z095_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z148_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z148_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z095_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z070_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z121_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z099_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z088_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z084_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z138_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z138_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z127_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z149_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z149_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z119_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z092_t001.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z117_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z152_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z152_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z115_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z146_t002.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z146_t002.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z127_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z127_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z005_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z005_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z016_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z016_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z040_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z087_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z054_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z028_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z028_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z027_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z027_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z000_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z000_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z125_t003.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z074_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z094_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z076_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z145_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z145_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z011_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z011_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z103_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z061_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z008_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z008_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z007_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z007_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z056_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z056_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z018_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z018_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z029_t003.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z029_t003.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z059_t000.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z048_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z134_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z134_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z131_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z131_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z067_t002.ome.tif
+LABELS 1 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z064_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z064_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z089_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z086_t002.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z022_t001.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z022_t001.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z043_t001.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z151_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z151_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z092_t003.ome.tif
+LABELS 1 2 3 DONE
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z029_t000.ome.tif
+LABELS file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_002_z029_t000.ome.tif : no ROI
+file /home/kharchenkoa2/work/data/decathlon-mini/seg/BRATS_001_z051_t002.ome.tif
+LABELS 1 2 

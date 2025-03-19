@@ -1,0 +1,194 @@
+--------------------- timestamp: 30570 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_155_z070_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_155_z070_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+usage: pyradiomics image|batch [mask] [Options]
+pyradiomics: error: argument --out/-o: can't open '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0001.tif.csv': [Errno 2] No such file or directory: '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0001.tif.csv'
++ for fpath in ${files[@]}
++ fn=BRATS_155_z070_t001_roi0002.tif
+++ date +%s
++ tentEnd=1714807598
++ echo '--------------------- timestamp: 30570 s'
+--------------------- timestamp: 30570 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_155_z070_t001_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_155_z070_t001_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+usage: pyradiomics image|batch [mask] [Options]
+pyradiomics: error: argument --out/-o: can't open '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0002.tif.csv': [Errno 2] No such file or directory: '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0002.tif.csv'
++ for fpath in ${files[@]}
++ fn=BRATS_155_z070_t001_roi0003.tif
+++ date +%s
++ tentEnd=1714807599
++ echo '--------------------- timestamp: 30571 s'
+--------------------- timestamp: 30571 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_155_z070_t001_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_155_z070_t001_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+usage: pyradiomics image|batch [mask] [Options]
+pyradiomics: error: argument --out/-o: can't open '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0003.tif.csv': [Errno 2] No such file or directory: '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t001_roi0003.tif.csv'
++ for fpath in ${files[@]}
++ fn=BRATS_155_z070_t002_roi0001.tif
+++ date +%s
++ tentEnd=1714807599
++ echo '--------------------- timestamp: 30571 s'
+--------------------- timestamp: 30571 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_155_z070_t002_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_155_z070_t002_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t002_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+usage: pyradiomics image|batch [mask] [Options]
+pyradiomics: error: argument --out/-o: can't open '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t002_roi0001.tif.csv': [Errno 2] No such file or directory: '/home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t002_roi0001.tif.csv'
++ for fpath in ${files[@]}
++ fn=BRATS_155_z070_t002_roi0002.tif
+++ date +%s
++ tentEnd=1714807599
++ echo '--------------------- timestamp: 30571 s'
+--------------------- timestamp: 30571 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_155_z070_t002_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_155_z070_t002_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_155_z070_t002_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+^C
+
+
+
+//
+// CORRECT >
+//
+
++ echo '--------------------- timestamp: 10684 s'
+--------------------- timestamp: 10684 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t000_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t000_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t000_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t000_roi0002.tif
+++ date +%s
++ tentEnd=1714833355
++ echo '--------------------- timestamp: 10684 s'
+--------------------- timestamp: 10684 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t000_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t000_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t000_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t000_roi0003.tif
+++ date +%s
++ tentEnd=1714833355
++ echo '--------------------- timestamp: 10684 s'
+--------------------- timestamp: 10684 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t000_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t000_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t000_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t001_roi0001.tif
+++ date +%s
++ tentEnd=1714833356
++ echo '--------------------- timestamp: 10685 s'
+--------------------- timestamp: 10685 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t001_roi0002.tif
+++ date +%s
++ tentEnd=1714833356
++ echo '--------------------- timestamp: 10685 s'
+--------------------- timestamp: 10685 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t001_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t001_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t001_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t001_roi0003.tif
+++ date +%s
++ tentEnd=1714833357
++ echo '--------------------- timestamp: 10686 s'
+--------------------- timestamp: 10686 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t001_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t001_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t001_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t002_roi0001.tif
+++ date +%s
++ tentEnd=1714833357
++ echo '--------------------- timestamp: 10686 s'
+--------------------- timestamp: 10686 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t002_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t002_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t002_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t002_roi0002.tif
+++ date +%s
++ tentEnd=1714833357
++ echo '--------------------- timestamp: 10686 s'
+--------------------- timestamp: 10686 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t002_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t002_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t002_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t002_roi0003.tif
+++ date +%s
++ tentEnd=1714833358
++ echo '--------------------- timestamp: 10687 s'
+--------------------- timestamp: 10687 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t002_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t002_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t002_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t003_roi0001.tif
+++ date +%s
++ tentEnd=1714833358
++ echo '--------------------- timestamp: 10687 s'
+--------------------- timestamp: 10687 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t003_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t003_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t003_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t003_roi0002.tif
+++ date +%s
++ tentEnd=1714833358
++ echo '--------------------- timestamp: 10687 s'
+--------------------- timestamp: 10687 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t003_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t003_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t003_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z060_t003_roi0003.tif
+++ date +%s
++ tentEnd=1714833359
++ echo '--------------------- timestamp: 10688 s'
+--------------------- timestamp: 10688 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z060_t003_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z060_t003_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z060_t003_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z061_t000_roi0001.tif
+++ date +%s
++ tentEnd=1714833359
++ echo '--------------------- timestamp: 10688 s'
+--------------------- timestamp: 10688 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z061_t000_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z061_t000_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z061_t000_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z061_t000_roi0002.tif
+++ date +%s
++ tentEnd=1714833359
++ echo '--------------------- timestamp: 10688 s'
+--------------------- timestamp: 10688 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z061_t000_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z061_t000_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z061_t000_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z061_t000_roi0003.tif
+++ date +%s
++ tentEnd=1714833360
++ echo '--------------------- timestamp: 10689 s'
+--------------------- timestamp: 10689 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z061_t000_roi0003.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z061_t000_roi0003.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z061_t000_roi0003.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z061_t001_roi0001.tif
+++ date +%s
++ tentEnd=1714833360
++ echo '--------------------- timestamp: 10689 s'
+--------------------- timestamp: 10689 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z061_t001_roi0001.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z061_t001_roi0001.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z061_t001_roi0001.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
++ for fpath in ${files[@]}
++ fn=BRATS_049_z061_t001_roi0002.tif
+++ date +%s
++ tentEnd=1714833360
++ echo '--------------------- timestamp: 10689 s'
+--------------------- timestamp: 10689 s
++ pyradiomics /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int/BRATS_049_z061_t001_roi0002.tif /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg/BRATS_049_z061_t001_roi0002.tif -o /home/kharchenkoa2/work/bench-pyradiomics2024/OUT-pyrad-SHAPE/BRATS_049_z061_t001_roi0002.tif.csv --format csv --jobs 8 --param ./mr_2d_extraction_SHAPE.yaml
+^CTraceback (most recent call last):
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/bin/pyradiomics", line 7, in <module>
+    from radiomics.scripts.__init__ import parse_args
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/radiomics/__init__.py", line 15, in <module>
+    from . import imageoperations
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/radiomics/imageoperations.py", line 6, in <module>
+    import pywt
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/pywt/__init__.py", line 23, in <module>
+    from ._cwt import *
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/pywt/_cwt.py", line 15, in <module>
+    import scipy.fft
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/scipy/__init__.py", line 138, in <module>
+    from scipy._lib import _pep440
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/site-packages/scipy/_lib/_pep440.py", line 198, in <module>
+    _legacy_version_component_re = re.compile(
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/sre_compile.py", line 768, in compile
+    code = _code(p, flags)
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/sre_compile.py", line 607, in _code
+    _compile(code, p.data, flags)
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/sre_compile.py", line 168, in _compile
+    _compile(code, p, _combine_flags(flags, add_flags, del_flags))
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/sre_compile.py", line 209, in _compile
+    _compile(code, av, flags)
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/sre_compile.py", line 148, in _compile
+    _compile(code, av[2], flags)
+  File "/home/kharchenkoa2/anaconda3/envs/SOFT1/lib/python3.8/sre_compile.py", line 124, in _compile
+    emit(IN)
+KeyboardInterrupt
+

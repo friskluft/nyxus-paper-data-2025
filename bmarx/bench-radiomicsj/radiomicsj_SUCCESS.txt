@@ -1,0 +1,177 @@
+
+BUILDING
+--------
+mvn -DskipTests package
+
+RUNNING
+-------
+java -Djava.awt.headless=true -jar C:\WORK\AXLE\benchmarks\RadiomicsJ\prereq1\RadiomicsJ-2.1.2-SNAPSHOT-jar-with-dependencies.jar -i C:\WORK\AXLE\benchmarks\bench-radiomicsj\sampledata-tif-multisegment\int -m C:\WORK\AXLE\benchmarks\bench-radiomicsj\sampledata-tif-multisegment\seg -o c:\WORK\AXLE\data\OUTPUT-mini -s C:\WORK\AXLE\benchmarks\RadiomicsJ\settings_2D_example.properties
+
+BENCHMARKING
+------------
+  RadiomicsJ is missing timing internally, so we need to add it.
+  Steps:
+  1) edit file RadiomicsJ.java
+  2) in the header part, add
+	import java.text.SimpleDateFormat; // benchmark
+  3) locate method 'main()'
+  4) locate code on approximately line 186
+	        ...
+		if(!testMode) {
+			try {
+				ResultsTable res = radiomics.execute(imgDir, maskDir, RadiomicsJ.targetLabel);
+				if (res != null) {
+					...
+						}else {
+					...
+
+  5) surround the call or 'execute()' with timing blocks
+
+				// benchmark
+				String timeStamp1 = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date());
+				long t1 = System.currentTimeMillis();
+				//
+
+				ResultsTable res = radiomics.execute(imgDir, maskDir, RadiomicsJ.targetLabel);
+
+				// benchmark
+				String timeStamp2 = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date());
+				System.out.println (">>> started " + timeStamp1);
+				System.out.println (">>> finished " + timeStamp2);
+				long t2 = System.currentTimeMillis();
+				long t_elap = t2 - t1;
+				System.out.println (">>> elapsed " + t_elap + " milliseconds");
+				//
+
+  6) rebuild with command 'mvn -DskipTests package'
+  7) run and observe a timing output in the end, for example:
+	>>> started 2024.01.31.08.24.14
+	>>> finished 2024.01.31.08.24.17
+	>>> elapsed 2882 milliseconds
+
+
+ERROR (all platforms) "Exception in thread "main" java.lang.UnsatisfiedLinkError: Can't load library: /.../radiomicsj/natives/linux-amd64//libgluegen-rt.so" (Linux) or '.../radiomicsj/windows-amd64/libgluegen-rt.dll' (Windows)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exception in thread "main" java.lang.UnsatisfiedLinkError: Can't load library: /.../radiomicsj/natives/linux-amd64//libgluegen-rt.so
+        at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2633)
+        at java.base/java.lang.Runtime.load0(Runtime.java:768)
+        at java.base/java.lang.System.load(System.java:1837)
+        at com.jogamp.common.jvm.JNILibLoaderBase.loadLibraryInternal(JNILibLoaderBase.java:624)
+        at com.jogamp.common.jvm.JNILibLoaderBase.access$000(JNILibLoaderBase.java:63)
+        at com.jogamp.common.jvm.JNILibLoaderBase$DefaultAction.loadLibrary(JNILibLoaderBase.java:106)
+        at com.jogamp.common.jvm.JNILibLoaderBase.loadLibrary(JNILibLoaderBase.java:487)
+        at com.jogamp.common.os.DynamicLibraryBundle$GlueJNILibLoader.loadLibrary(DynamicLibraryBundle.java:421)
+        at com.jogamp.common.os.Platform$1.run(Platform.java:317)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at com.jogamp.common.os.Platform.<clinit>(Platform.java:287)
+        at com.jogamp.opengl.GLProfile.<clinit>(GLProfile.java:147)
+        at jogamp.opengl.ThreadingImpl$1.run(ThreadingImpl.java:83)
+        at jogamp.opengl.ThreadingImpl$1.run(ThreadingImpl.java:66)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at jogamp.opengl.ThreadingImpl.<clinit>(ThreadingImpl.java:66)
+        at com.jogamp.opengl.Threading.disableSingleThreading(Threading.java:164)
+        at org.scijava.java3d.JoglPipeline.initialize(JoglPipeline.java:130)
+        at org.scijava.java3d.Pipeline.createPipeline(Pipeline.java:92)
+        at org.scijava.java3d.MasterControl.loadLibraries(MasterControl.java:837)
+        at org.scijava.java3d.VirtualUniverse.<clinit>(VirtualUniverse.java:274)
+        at org.scijava.java3d.NodeRetained.dirtyBoundsCache(NodeRetained.java:974)
+        at org.scijava.java3d.Shape3DRetained.setGeometry(Shape3DRetained.java:368)
+        at org.scijava.java3d.Shape3D.setGeometry(Shape3D.java:253)
+        at customnode.CustomMesh.update(CustomMesh.java:95)
+        at customnode.CustomMesh.<init>(CustomMesh.java:78)
+        at customnode.CustomTriangleMesh.<init>(CustomTriangleMesh.java:55)
+        at customnode.CustomTriangleMesh.<init>(CustomTriangleMesh.java:49)
+        at com.vis.radiomics.features.MorphologicalFeatures.getVolumeByMesh(MorphologicalFeatures.java:234)
+        at com.vis.radiomics.features.MorphologicalFeatures.calculate(MorphologicalFeatures.java:163)
+        at com.vis.radiomics.main.RadiomicsJ.compute(RadiomicsJ.java:1404)
+        at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1304)
+        at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1275)
+        at com.vis.radiomics.main.RadiomicsJ.execute(RadiomicsJ.java:1180)
+        at com.vis.radiomics.main.RadiomicsJ.main(RadiomicsJ.java:185)
+
+  Resolution: missing native libraries.  Download missing JOGAMP libraries and manually deploy them in radiomicsJ/natives/. 
+	Steps:
+	1) Download them as jogamp-all-platforms.7z at https://jogamp.org/deployment/jogamp-current/archive/ 
+	2) un7zip the archive
+	3) mkdir 'natives' on the (remote) Linux machine and copy directory 'jogamp-all-platforms\lib\linux-amd64' into it
+	4) in directory 'linux-amd64', rename file libgluegen_rt.so into libgluegen-rt.so
+
+  BGND: https://www.tutorialspoint.com/jogl/jogl_installation.htm
+
+
+ERROR (in Linux) "java.awt.HeadlessException: No X11 DISPLAY variable was set, but this program performed an operation which requires it"
+------------------------------------------------------------------------------------------------------------------------------------------
+  Resolution:
+	export DISPLAY=:0.0
+		or
+	export DISPLAY=localhost:0.0
+
+  BGND: https://stackoverflow.com/questions/662421/no-x11-display-variable-what-does-it-mean
+
+ERROR (in Linux) "Can't connect to X11 window server using ':0.0' as the value of the DISPLAY variable"
+----------------------------------------------------------------------------------------------------------
+Exception in thread "main" java.awt.AWTError: Can't connect to X11 window server using ':0.0' as the value of the DISPLAY variable.
+	or
+Exception in thread "main" java.awt.AWTError: Can't connect to X11 window server using 'localhost:0.0' as the value of the DISPLAY variable.
+        at java.desktop/sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+        at java.desktop/sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:102)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at java.desktop/sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:61)
+        at java.base/java.lang.Class.forName0(Native Method)
+        at java.base/java.lang.Class.forName(Class.java:315)
+        at java.desktop/java.awt.GraphicsEnvironment$LocalGE.createGE(GraphicsEnvironment.java:101)
+        at java.desktop/java.awt.GraphicsEnvironment$LocalGE.<clinit>(GraphicsEnvironment.java:83)
+        at java.desktop/java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:129)
+        at java.desktop/sun.awt.X11.XToolkit.<clinit>(XToolkit.java:232)
+
+Resulution: use flag -Djava.awt.headless=true
+
+
+ERROR (in Linux) Even with '-Djava.awt.headless=true' an exception is thrown originating in CustomTriangleMesh
+--------------------------------------------------------------------------------------------------------------
+Exception in thread "main" java.lang.ExceptionInInitializerError
+        at org.scijava.java3d.NodeRetained.dirtyBoundsCache(NodeRetained.java:974)
+        at org.scijava.java3d.Shape3DRetained.setGeometry(Shape3DRetained.java:368)
+        at org.scijava.java3d.Shape3D.setGeometry(Shape3D.java:253)
+        at customnode.CustomMesh.update(CustomMesh.java:95)
+        at customnode.CustomMesh.<init>(CustomMesh.java:78)
+        at customnode.CustomTriangleMesh.<init>(CustomTriangleMesh.java:55)
+        at customnode.CustomTriangleMesh.<init>(CustomTriangleMesh.java:49)
+        at com.vis.radiomics.features.MorphologicalFeatures.getVolumeByMesh(MorphologicalFeatures.java:234)
+        at com.vis.radiomics.features.MorphologicalFeatures.calculate(MorphologicalFeatures.java:163)
+        at com.vis.radiomics.main.RadiomicsJ.compute(RadiomicsJ.java:1404)
+        at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1304)
+        at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1275)
+        at com.vis.radiomics.main.RadiomicsJ.execute(RadiomicsJ.java:1180)
+        at com.vis.radiomics.main.RadiomicsJ.main(RadiomicsJ.java:185)
+Caused by: java.awt.HeadlessException
+        at org.scijava.java3d.VirtualUniverse.<clinit>(VirtualUniverse.java:269)
+        ... 14 more
+
+Resolution: edit file 'settings_2D_example.properties' used in command line as 'java -Djava.awt.headless=true -jar ./target/RadiomicsJ-blahblah.jar -i /dataset/int -m /dataset/seg -o /outputDir/ -s /pathTo/settings_2D_example.properties' and set 'BOOL_enableMorphological=0'. Example:
+
+	...
+	!Select calculating features
+	!
+	BOOL_enableOperationalInfo=1
+	BOOL_enableDiagnostics=1
+	BOOL_enableMorphological=0 # important for headless EC2
+	BOOL_enableLocalIntensityFeatures=1
+	BOOL_enableIntensityBasedStatistics=1
+	BOOL_enableIntensityHistogram=1
+	BOOL_enableIntensityVolumeHistogram=1
+	BOOL_enableShape2D=1
+	BOOL_enableGLCM=1
+	BOOL_enableGLRLM=1
+	BOOL_enableGLSZM=1
+	BOOL_enableGLDZM=1
+	BOOL_enableNGTDM=1
+	BOOL_enableNGLDM=1
+	BOOL_enableFractal=1
+	#BOOL_enableHomological=0
+	...
+
+
+
+
+

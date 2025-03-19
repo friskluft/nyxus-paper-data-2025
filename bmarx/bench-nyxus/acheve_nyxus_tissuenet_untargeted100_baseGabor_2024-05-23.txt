@@ -1,0 +1,101 @@
+Processing trivial ROIs
+>>> Scanning batch #1 of 86 pending ROIs of 86 all ROIs
+>>> (ROIs 1 ... 88)
+        allocating ROI buffers
+        reducing ROIs
+        freeing ROI buffers
+        reducing neighbor features and their depends for all ROIs
+        --> /home/kharchenkoa2/work/data/OUT-tissuenet/f_tissuenet.csv.csv
+      786268160 bytes free (consumed=-6.92429e+07) [ 99.83% ]    INT: /home/kharchenkoa2/work/data/tissuenet/int/p5_y4_r8_c0.ome.tif SEG: /home/kharchenkoa2/work/data/tissuenet/seg/p5_y4_r8_c0.ome.tif
+Gathering ROI metrics
+Processing trivial ROIs
+>>> Scanning batch #1 of 39 pending ROIs of 39 all ROIs
+>>> (ROIs 1 ... 39)
+        allocating ROI buffers
+        reducing ROIs
+        freeing ROI buffers
+        reducing neighbor features and their depends for all ROIs
+        --> /home/kharchenkoa2/work/data/OUT-tissuenet/f_tissuenet.csv.csv
+      787042304 bytes free (consumed=-6.84687e+07) [ 99.87% ]    INT: /home/kharchenkoa2/work/data/tissuenet/int/p5_y4_r8_c1.ome.tif SEG: /home/kharchenkoa2/work/data/tissuenet/seg/p5_y4_r8_c1.ome.tif
+Gathering ROI metrics
+Processing trivial ROIs
+>>> Scanning batch #1 of 50 pending ROIs of 50 all ROIs
+>>> (ROIs 1 ... 52)
+        allocating ROI buffers
+        reducing ROIs
+        freeing ROI buffers
+        reducing neighbor features and their depends for all ROIs
+        --> /home/kharchenkoa2/work/data/OUT-tissuenet/f_tissuenet.csv.csv
+      785780736 bytes free (consumed=-6.97303e+07) [ 99.91% ]    INT: /home/kharchenkoa2/work/data/tissuenet/int/p5_y4_r9_c0.ome.tif SEG: /home/kharchenkoa2/work/data/tissuenet/seg/p5_y4_r9_c0.ome.tif
+Gathering ROI metrics
+Processing trivial ROIs
+>>> Scanning batch #1 of 76 pending ROIs of 76 all ROIs
+>>> (ROIs 1 ... 76)
+        allocating ROI buffers
+        reducing ROIs
+        freeing ROI buffers
+        reducing neighbor features and their depends for all ROIs
+        --> /home/kharchenkoa2/work/data/OUT-tissuenet/f_tissuenet.csv.csv
+      785522688 bytes free (consumed=-6.99884e+07) [ 99.95% ]    INT: /home/kharchenkoa2/work/data/tissuenet/int/p5_y4_r9_c1.ome.tif SEG: /home/kharchenkoa2/work/data/tissuenet/seg/p5_y4_r9_c1.ome.tif
+Gathering ROI metrics
+Processing trivial ROIs
+>>> Scanning batch #1 of 83 pending ROIs of 83 all ROIs
+>>> (ROIs 1 ... 85)
+        allocating ROI buffers
+        reducing ROIs
+        freeing ROI buffers
+        reducing neighbor features and their depends for all ROIs
+        --> /home/kharchenkoa2/work/data/OUT-tissuenet/f_tissuenet.csv.csv
+--------------------
+Total time of all feature groups [sec] = 537.318
+Break-down:
+--------------------
+GPU-Gabor/GPU-Gabor/Gabor/#f58231       15.75%  8.46273e+07
+GPU-Moments/GPU-Moments/2D moms/#FFFACD 61.61%  3.3103e+08
+Image scan1/ImgScan1/Scan1/lightsteelblue       0.02%   94761.5
+Image scan2a/ImgScan2a/Scan2a/lightsteelblue    2.19%   1.17512e+07
+Image scan2b/ImgScan2b/Scan2b/lightsteelblue    0.66%   3.56734e+06
+Image scan3/ImgScan3/Scan3/lightsteelblue       0%      22298
+Intensity/Intensity/Int/#FFFF00 0.68%   3.64011e+06
+Morphology/Basic/E/#4aaaea      0.15%   785384
+Morphology/Chords/Ch/#4aaaea    1.58%   8.4906e+06
+Morphology/Contour/C/#4aaaea    0.33%   1.78182e+06
+Morphology/Ellipticity/E/#4aaaea        0.11%   577137
+Morphology/Erosion/Er/#4aaaea   1.29%   6.94243e+06
+Morphology/Euler/Eu/#4aaaea     0.14%   752720
+Morphology/Extrema/Ex/#4aaaea   0.11%   570464
+Morphology/Feret/F/#4aaaea      0.15%   787809
+Morphology/Fractal dimension/Fd/#4aaaea 0.19%   1.02837e+06
+Morphology/HexPolygEncloInsCircleGeodetLenThickness/HP/#4aaaea  0.56%   2.99721e+06
+Morphology/Hull/H/#4aaaea       0.16%   866323
+Morphology/Martin/M/#4aaaea     0.47%   2.54864e+06
+Morphology/Nassenstein/N/#4aaaea        0.43%   2.32803e+06
+Morphology/RoiR/R/#4aaaea       0.61%   3.28379e+06
+Neighbors/Neighbors/N/#FF69B4   0.61%   3.3012e+06
+RDistribution/Rdist/Rd/#00FFFF  1.13%   6.07576e+06
+RDistribution/Zernike/Rz/#00FFFF        0.74%   3.95857e+06
+Texture/GLCM/GLCM/#bbbbbb       0.54%   2.91292e+06
+Texture/GLDM/D/#bbbbbb  0.51%   2.72547e+06
+Texture/GLDZM/DZ/#bbbbbb        0.8%    4.30445e+06
+Texture/GLRLM/RL/#bbbbbb        1.5%    8.08586e+06
+Texture/GLSZM/SZ/#bbbbbb        5.87%   3.15208e+07
+Texture/NGLDM/NG/#bbbbbb        0.45%   2.42286e+06
+Texture/NGTDM/NG/#bbbbbb        0.66%   3.53636e+06
+--------------------
+
+>>> STARTED >>> 2024-05-23 09:02:40
+>>> FINISHED >>>        2024-05-23 09:13:02
+++ date +%s
++ end=1716469982
++ echo 'Elapsed Time: 622 seconds'
+Elapsed Time: 622 seconds
++ echo '***'
++ date
++ echo /home/kharchenkoa2/work/data/tissuenet
++ printf 'Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/tissuenet/int --segDir=/home/kharchenkoa2/work/data/tissuenet/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 \n'
++ printf 'Elapsed Time: 622 seconds \n'
++ date
+Thu May 23 09:13:02 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-nyxus]$
+
+

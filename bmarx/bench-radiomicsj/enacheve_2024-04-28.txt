@@ -1,0 +1,35 @@
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-radiomicsj]$ ./run_decathlon.sh 
++ date
+Sun Apr 28 21:38:27 EDT 2024
+++ date +%s
++ start=1714354707
++ java -Djava.awt.headless=true -jar /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar -i /home/kharchenkoa2/work/data/decathlon-splitroi-tif/int -m /home/kharchenkoa2/work/data/decathlon-splitroi-tif/seg -o /home/kharchenkoa2/work/data/OUT-radj -s /home/kharchenkoa2/work/bench-radiomicsj/settings_2D.properties
+Compute at 1
+3D [dev] 1.6.0-scijava-2-pre11-daily-experimental daily
+
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at org.scijava.java3d.NodeRetained.dirtyBoundsCache(NodeRetained.java:974)
+	at org.scijava.java3d.Shape3DRetained.setGeometry(Shape3DRetained.java:368)
+	at org.scijava.java3d.Shape3D.setGeometry(Shape3D.java:253)
+	at customnode.CustomMesh.update(CustomMesh.java:95)
+	at customnode.CustomMesh.<init>(CustomMesh.java:78)
+	at customnode.CustomTriangleMesh.<init>(CustomTriangleMesh.java:55)
+	at customnode.CustomTriangleMesh.<init>(CustomTriangleMesh.java:49)
+	at com.vis.radiomics.features.MorphologicalFeatures.getVolumeByMesh(MorphologicalFeatures.java:234)
+	at com.vis.radiomics.features.MorphologicalFeatures.calculate(MorphologicalFeatures.java:163)
+	at com.vis.radiomics.main.RadiomicsJ.compute(RadiomicsJ.java:1422)
+	at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1322)
+	at com.vis.radiomics.main.RadiomicsJ.extractAllSlice(RadiomicsJ.java:1293)
+	at com.vis.radiomics.main.RadiomicsJ.execute(RadiomicsJ.java:1198)
+	at com.vis.radiomics.main.RadiomicsJ.main(RadiomicsJ.java:193)
+Caused by: java.awt.HeadlessException
+	at org.scijava.java3d.VirtualUniverse.<clinit>(VirtualUniverse.java:269)
+	... 14 more
+++ date +%s
++ end=1714361896
++ echo 'Experiment: /home/kharchenkoa2/work/data/decathlon-splitroi-tif Elapsed Time: 7189 seconds'
+Experiment: /home/kharchenkoa2/work/data/decathlon-splitroi-tif Elapsed Time: 7189 seconds
++ printf 'JARPATH: /home/kharchenkoa2/work/radiomicsj/target/RadiomicsJ-2.1.1-SNAPSHOT-jar-with-dependencies.jar \nDATADIR: /home/kharchenkoa2/work/data/decathlon-splitroi-tif \nOUTDIR: /home/kharchenkoa2/work/data/OUT-radj \nSETTINGSFILE: /home/kharchenkoa2/work/bench-radiomicsj/settings_2D.properties \nElapsed Time: 7189 seconds \n'
++ date
+Sun Apr 28 23:38:16 EDT 2024
+

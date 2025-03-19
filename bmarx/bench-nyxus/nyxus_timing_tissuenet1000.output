@@ -1,0 +1,30 @@
+***
+Tue Jun  4 19:09:56 EDT 2024
+/home/kharchenkoa2/work/data/tissuenet1000
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=false --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 177 seconds 
+***
+Tue Jun  4 19:14:56 EDT 2024
+/home/kharchenkoa2/work/data/tissuenet1000
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=true --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 241 seconds 
+***
+Tue Jun  4 19:26:36 EDT 2024
+/home/kharchenkoa2/work/data/tissuenet1000
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=true --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 247 seconds 
+***
+Tue Jun  4 19:31:33 EDT 2024
+/home/kharchenkoa2/work/data/tissuenet1000
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=false --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 178 seconds 
+***
+Thu Jun 27 20:27:45 EDT 2024
+/home/kharchenkoa2/work/data/tissuenet1000
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=false --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 191 seconds 
+***
+Thu Jun 27 20:40:05 EDT 2024
+/home/kharchenkoa2/work/data/tissuenet1000
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD2/nyxus  --useGpu=true --intDir=/home/kharchenkoa2/work/data/tissuenet1000/int --segDir=/home/kharchenkoa2/work/data/tissuenet1000/seg --coarseGrayDepth=100 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-tissuenet --resultFname=f_tissuenet1000.csv --verbose=1 --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 220 seconds 

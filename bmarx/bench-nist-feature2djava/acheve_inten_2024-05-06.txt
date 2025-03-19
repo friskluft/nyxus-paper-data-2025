@@ -1,0 +1,48 @@
+------------------Params output dir /data/OUT-nistjavaplugin-inten/
+------------------Params table name BRATS_484_z153_t003.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-inten/BRATS_484_z153_t003.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-inten/
+------------------Params table name BRATS_484_z154_t000.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-inten/BRATS_484_z154_t000.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-inten/
+------------------Params table name BRATS_484_z154_t001.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-inten/BRATS_484_z154_t001.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-inten/
+------------------Params table name BRATS_484_z154_t002.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-inten/BRATS_484_z154_t002.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-inten/
+------------------Params table name BRATS_484_z154_t003.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-inten/BRATS_484_z154_t003.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Feature Extraction completed. Duration: 01:34:03.118 (1 hour(s) 34 minute(s) 03 second(s))
+++ date +%s
++ end=1714995785
++ echo 'Elapsed Time: 5657 seconds'
+Elapsed Time: 5657 seconds
++ echo '***'
++ date
++ echo /data/decathlon/output/int
++ echo /data/decathlon/output/seg
++ echo Feature2DJava_Mean,Feature2DJava_Entropy,Feature2DJava_Median,Feature2DJava_Mode,Feature2DJava_StandardDeviation,Feature2DJava_Skewness,Feature2DJava_Kurtosis,Feature2DJava_Hyperskewness,Feature2DJava_Hyperflatness
++ echo '5657 seconds'
++ date
+Mon May  6 07:43:05 EDT 2024
+(SOFT1) [kharchenkoa2@ncats-polus-lnx-dev03 bench-nist-feature2djava]$
+
+

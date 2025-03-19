@@ -1,0 +1,2 @@
+Command line: /home/kharchenkoa2/work/nyxus-softtuning/BLD1/nyxus --intDir=/home/kharchenkoa2/work/data/decathlon-mini/int --segDir=/home/kharchenkoa2/work/data/decathlon-mini/seg --coarseGrayDepth=8 --filePattern=.* --outDir=/home/kharchenkoa2/work/data/OUT-decathlon --resultFname=f_decathlon.csv --verbose=1 --useGpu=true --outputType=singlecsv --features=*ALL* --reduceThreads=8 
+Elapsed Time: 23 seconds 

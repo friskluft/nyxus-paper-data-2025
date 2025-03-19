@@ -1,0 +1,1 @@
+Experiment: Mock_Cellprofiler_on_Tissuenet Elapsed Time: 726 seconds

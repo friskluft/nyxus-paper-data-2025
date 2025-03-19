@@ -1,0 +1,52 @@
+------------------Params table name BRATS_484_z153_t002.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-texture/BRATS_484_z153_t002.ome.tif.csv
+Extraction completed. 00:00:00.001 (0.001 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-texture/
+------------------Params table name BRATS_484_z153_t003.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-texture/BRATS_484_z153_t003.ome.tif.csv
+Extraction completed. 00:00:00.001 (0.001 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-texture/
+------------------Params table name BRATS_484_z154_t000.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-texture/BRATS_484_z154_t000.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-texture/
+------------------Params table name BRATS_484_z154_t001.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-texture/BRATS_484_z154_t001.ome.tif.csv
+Extraction completed. 00:00:00.001 (0.001 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-texture/
+------------------Params table name BRATS_484_z154_t002.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-texture/BRATS_484_z154_t002.ome.tif.csv
+Extraction completed. 00:00:00.001 (0.001 second(s))
+Starting extraction...
+Width:240    Height:240
+Width:240    Height:240
+------------------Params output dir /data/OUT-nistjavaplugin-texture/
+------------------Params table name BRATS_484_z154_t003.ome.tif.csv
+Writing file: /data/OUT-nistjavaplugin-texture/BRATS_484_z154_t003.ome.tif.csv
+Extraction completed. 00:00:00.000 (0.000 second(s))
+Feature Extraction completed. Duration: 01:34:27.665 (1 hour(s) 34 minute(s) 27 second(s))
+++ date +%s
++ end=1714990630
++ echo 'Elapsed Time: 5680 seconds'
+Elapsed Time: 5680 seconds
++ echo '***'
++ echo /data/decathlon/output/int
++ echo /data/decathlon/output/seg
++ echo Feature2DJava_TContrast,Feature2DJava_TCorrelation,Feature2DJava_THomogeneity,Feature2DJava_TEnergy,Feature2DJava_TVariance,Feature2DJava_TEntropy,Feature2DJava_TInvDiffMoment,Feature2DJava_TSumAverage,Feature2DJava_TSumVariance,Feature2DJava_TSumEntropy,Feature2DJava_TDiffAverage,Feature2DJava_TDiffVariance,Feature2DJava_TDiffEntropy
++ echo '5680 seconds'
++ date
+Mon May  6 06:17:10 EDT 2024
+[kharchenkoa2@ncats-polus-lnx-dev03 bench-nist-feature2djava]$
+
