@@ -1,0 +1,33 @@
+h1,h2,h3,weight,color,codes,rawtime,totalTime,numReduceThreads
+Total,Gabor,Gabor,27.1023,#f58231,Gabor,1.06E+07,3.92E+07,8
+Total,Image scan1,scan1,0.000102963,#aabbcc,s1,40.311,3.92E+07,8
+Total,Image scan2a,scan2a,1.01201,#aabbcc,s2a,396212,3.92E+07,8
+Total,Image scan2b,scan2b,0.00365248,#aabbcc,s2b,1429.98,3.92E+07,8
+Total,Image scan3,scan3,2.75E-05,#aabbcc,s3,10.77,3.92E+07,8
+Total,Intensity,Intensity,0.578641,#FFFF00,I,226543,3.92E+07,8
+Total,Moments,Moments,22.2474,#FFFACE,GM,8.71E+06,3.92E+07,8
+Total,Morphology,Basic,0.0760598,#2C86FF,E,29778.1,3.92E+07,8
+Total,Morphology,Chords,2.2326,#2C86FF,Ch,874082,3.92E+07,8
+Total,Morphology,Contour,0.180611,#2C86FF,C,70710.8,3.92E+07,8
+Total,Morphology,Ellipticity,0.0181841,#2C86FF,E,7119.25,3.92E+07,8
+Total,Morphology,Erosion,20.9643,#B9CFED,Eros,8.21E+06,3.92E+07,8
+Total,Morphology,Euler,0.0907786,#2C86FF,Eu,35540.7,3.92E+07,8
+Total,Morphology,Extrema,0.0187583,#2C86FF,Ex,7344.06,3.92E+07,8
+Total,Morphology,Feret,0.00130927,#2C86FF,F,512.59,3.92E+07,8
+Total,Morphology,Fractal dimension,0.0837647,#2C86FF,Fd,32794.6,3.92E+07,8
+Total,Morphology,HexPolygEncloInsCircleGeodetLenThickness,0.128204,#2C86FF,HP,50192.9,3.92E+07,8
+Total,Morphology,Hull,0.0843258,#2C86FF,H,33014.3,3.92E+07,8
+Total,Morphology,Martin,0.00340382,#2C86FF,M,1332.63,3.92E+07,8
+Total,Morphology,Nassenstein,0.00339008,#2C86FF,N,1327.25,3.92E+07,8
+Total,Morphology,RoiR,1.56371,#2C86FF,R,612206,3.92E+07,8
+Total,Neighbors,Neighbors,0.000138978,#00BC55,N,54.411,3.92E+07,8
+Total,RDistribution,Rdist,2.60697,#00FFFF,Rd,1.02E+06,3.92E+07,8
+Total,RDistribution,Zernike,0.958834,#00FFFF,Rz,375392,3.92E+07,8
+Total,Texture,GLCM,0.277374,#DDA69D,CM,108594,3.92E+07,8
+Total,Texture,GLDM,0.271547,#DDA69D,DM,106313,3.92E+07,8
+Total,Texture,GLDZM,5.41992,#DDA69D,DZ,2.12E+06,3.92E+07,8
+Total,Texture,GLRLM,1.0426,#DDA69D,RL,408187,3.92E+07,8
+Total,Texture,GLSZM,11.4348,#DDA69D,SZ,4.48E+06,3.92E+07,8
+Total,Texture,NGLDM,0.3971,#DDA69D,NG,155468,3.92E+07,8
+Total,Texture,NGTDM,0.417818,#DDA69D,NG,163580,3.92E+07,8
+Total,prescan,p0,0.779358,#aabbcc,P,305126,3.92E+07,8

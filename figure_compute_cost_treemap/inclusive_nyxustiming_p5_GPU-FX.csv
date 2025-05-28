@@ -1,0 +1,34 @@
+h1,h2,h3,weight,color,codes,rawtime,totalTime,numReduceThreads
+Total,GPU-Gabor,GPU-Gabor,6.95166,#f58231,Gabor,961489,1.38E+07,8
+Total,GPU-Moments,GPU-Moments,0.582815,#aabbcc,s1,80609.6,1.38E+07,8
+Total,Image scan1,scan1,0.000275901,#aabbcc,s2a,38.16,1.38E+07,8
+Total,Image scan2a,scan2a,2.86581,#aabbcc,s2b,396372,1.38E+07,8
+Total,Image scan2b,scan2b,0.0119227,#aabbcc,s3,1649.03,1.38E+07,8
+Total,Image scan3,scan3,6.82E-05,#FFFF00,I,9.431,1.38E+07,8
+Total,Intensity,Intensity,1.61444,#FFFACE,GM,223294,1.38E+07,8
+Total,Morphology,Basic,0.210909,#2C86FF,E,29171,1.38E+07,8
+Total,Morphology,Chords,6.42488,#2C86FF,Ch,888629,1.38E+07,8
+Total,Morphology,Contour,0.506335,#2C86FF,C,70031.5,1.38E+07,8
+Total,Morphology,Ellipticity,0.0532383,#2C86FF,E,7363.42,1.38E+07,8
+Total,GPU-Morphology,GPU-Erosion,6.23494,#B9CFED,Eros,862359,1.38E+07,8
+Total,Morphology,Euler,0.195314,#2C86FF,Eu,27014,1.38E+07,8
+Total,Morphology,Extrema,0.0514935,#2C86FF,Ex,7122.11,1.38E+07,8
+Total,Morphology,Feret,0.00370116,#2C86FF,F,511.91,1.38E+07,8
+Total,Morphology,Fractal dimension,0.245418,#2C86FF,Fd,33944,1.38E+07,8
+Total,Morphology,HexPolygEncloInsCircleGeodetLenThickness,0.361737,#2C86FF,HP,50032.1,1.38E+07,8
+Total,Morphology,Hull,0.236718,#2C86FF,H,32740.6,1.38E+07,8
+Total,Morphology,Martin,0.00761013,#2C86FF,M,1052.56,1.38E+07,8
+Total,Morphology,Nassenstein,0.00955528,#2C86FF,N,1321.6,1.38E+07,8
+Total,Morphology,RoiR,4.41846,#2C86FF,R,611120,1.38E+07,8
+Total,Neighbors,Neighbors,0.000695116,#00BC55,N,96.142,1.38E+07,8
+Total,RDistribution,Rdist,7.3786,#00FFFF,Rd,1.02E+06,1.38E+07,8
+Total,RDistribution,Zernike,2.67751,#00FFFF,Rz,370329,1.38E+07,8
+Total,Texture,GLCM,0.824843,#DDA69D,CM,114085,1.38E+07,8
+Total,Texture,GLDM,0.745074,#DDA69D,DM,103052,1.38E+07,8
+Total,Texture,GLDZM,16.2703,#DDA69D,DZ,2.25E+06,1.38E+07,8
+Total,Texture,GLRLM,2.82207,#DDA69D,RL,390323,1.38E+07,8
+Total,Texture,GLSZM,11.38,#DDA69D,SZ,1.57E+06,1.38E+07,8
+Total,Texture,NGLDM,1.12696,#DDA69D,NG,155870,1.38E+07,8
+Total,Texture,NGTDM,1.11327,#DDA69D,NG,153977,1.38E+07,8
+Total,Upload2Gpu,Upload,1.51403,#aabbcc,P,209406,1.38E+07,8
+Total,prescan,p0,2.48463,#ccbbaa,P,343651,1.38E+07,8
