@@ -8,8 +8,8 @@ Steps:
 (2) assuming a benchmark is in file /work/benchmark1.csv <br>
 (3) compile renderer's scripts
 ```r
-source("vthie_df_2_tree.r")
-source("vthie_df_2_tree.r")
+source ("vthie_df_2_tree.r")
+source ("vthie_render.r")
 ```
 (3) produce an graphics html-file from a benchmarks csv-file using the following command
 ```r
