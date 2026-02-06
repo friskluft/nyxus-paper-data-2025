@@ -1,0 +1,772 @@
+%Version 2.1 April 2023
+% See section 11 of the User Manual for version history
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%\documentclass[referee,sn-basic]{sn-jnl}% referee option is meant for double line spacing
+
+%%=======================================================%%
+%% to print line numbers in the margin use lineno option %%
+%%=======================================================%%
+
+%%\documentclass[lineno,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%======================================================%%
+%% to compile with pdflatex/xelatex use pdflatex option %%
+%%======================================================%%
+
+%%\documentclass[pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+
+%%Note: the following reference styles support Namedate and Numbered referencing. By default the style follows the most common style. To switch between the options you can add or remove �Numbered� in the optional parenthesis.
+%%The option is available for: sn-basic.bst, sn-vancouver.bst, sn-chicago.bst, sn-mathphys.bst. %
+
+%%\documentclass[sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
+%%\documentclass[sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+\documentclass[sn-mathphys,Numbered]{sn-jnl}% Math and Physical Sciences Reference Style
+%%\documentclass[sn-aps]{sn-jnl}% American Physical Society (APS) Reference Style
+%%\documentclass[sn-vancouver,Numbered]{sn-jnl}% Vancouver Reference Style
+%%\documentclass[sn-apa]{sn-jnl}% APA Reference Style
+%%\documentclass[sn-chicago]{sn-jnl}% Chicago-based Humanities Reference Style
+%%\documentclass[default]{sn-jnl}% Default
+%%\documentclass[default,iicol]{sn-jnl}% Default with double column layout
+
+%%%% Standard Packages
+%%<additional latex packages if required can be included here>
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+%%%%
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{letterpaper} % or a4paper, letterpaper (US) or a5paper or....
+\geometry{margin=0.5in} % for example, change the margins to 2 inches all round
+\geometry{portrait} % set up the page for landscape
+
+%%% SUBIMAGES
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+
+\usepackage{booktabs} % for much better looking tables
+%%% PACKAGES
+\usepackage{array} % for better arrays (eg matrices) in maths
+%\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+%\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+%\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+ % These packages are all incorporated in the memoir class to one degree or another...
+\usepackage{url} % URLs
+
+% prevent LaTeX from repositioning the tables
+%%% \usepackage{float}
+%%% \restylefloat{table}
+
+% Watermark
+\usepackage[firstpage]{draftwatermark}
+\SetWatermarkText{\symbol{"76}\symbol{"2E} \symbol{"61}\symbol{"6E}\symbol{"64}r\symbol{"65} \\
+ \symbol{"32}\symbol{"30}\symbol{"32}\symbol{"36}\symbol{"2D}\symbol{"30}\symbol{"32}
+ \symbol{"2D}\symbol{"30}\symbol{"36}}
+\SetWatermarkScale{5}
+\SetWatermarkLightness{0.8}
+
+% ensure floats never float "back" to the top of the current page
+% before their definition in the source
+\usepackage{flafter}
+
+%%% Diameter symbol
+\usepackage{wasysym}
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+%\pagestyle{plain} % options: empty , plain , fancy
+%\renewcommand{\headrulewidth}{0pt} % customise the layout...
+%\lhead{}\chead{}\rhead{}
+%\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+ % (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+%\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+%\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+%\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+%\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+
+
+%%%%%=============================================================================%%%%
+%%%%  Remarks: This template is provided to aid authors with the preparation
+%%%%  of original research articles intended for submission to journals published
+%%%%  by Springer Nature. The guidance has been prepared in partnership with
+%%%%  production teams to conform to Springer Nature technical requirements.
+%%%%  Editorial and presentation requirements differ among journal portfolios and
+%%%%  research disciplines. You may find sections in this template are irrelevant
+%%%%  to your work and are empowered to omit any such section if allowed by the
+%%%%  journal you intend to submit to. The submission guidelines and policies
+%%%%  of the journal take precedence. A detailed User Manual is available in the
+%%%%  template package for technical guidance.
+%%%%%=============================================================================%%%%
+
+%\jyear{2023}%
+
+%% as per the requirement new theorem styles can be included as shown below
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}%  meant for continuous numbers
+%%\newtheorem{theorem}{Theorem}[section]% meant for sectionwise numbers
+%% optional argument [theorem] produces theorem numbering sequence instead of independent numbers for Proposition
+\newtheorem{proposition}[theorem]{Proposition}%
+%%\newtheorem{proposition}{Proposition}% to get separate numbers for theorem and proposition etc.
+
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}%
+
+\raggedbottom
+%%\unnumbered% uncomment this for unnumbered level heads
+
+\begin{document}
+
+\title[Multimodal feature extraction for reproducible science]{Multimodal feature extraction for reproducible profiling and ML}
+
+%%=============================================================%%
+%% Prefix -> \pfx{Dr}
+%% GivenName -> \fnm{Joergen W.}
+%% Particle -> \spfx{van der} -> surname prefix
+%% FamilyName -> \sur{Ploeg}
+%% Suffix -> \sfx{IV}
+%% NatureName -> \tanm{Poet Laureate} -> Title after name
+%% Degrees -> \dgr{MSc, PhD}
+%% \author*[1,2]{\pfx{Dr} \fnm{Joergen W.} \spfx{van der} \sur{Ploeg} \sfx{IV} \tanm{Poet Laureate}
+%%                 \dgr{MSc, PhD}}\email{iauthor@gmail.com}
+%%=============================================================%%
+
+\author*[1,2]{\fnm{Andriy} \sur{Kharchenko}}\email{andre.ixar@gmail.com}
+
+\author[2,3]{\fnm{Second} \sur{Author}}\email{iiauthor@gmail.com}
+\equalcont{These authors contributed equally to this work.}
+
+\author[1,2]{\fnm{Third} \sur{Author}}\email{iiiauthor@gmail.com}
+\equalcont{These authors contributed equally to this work.}
+
+\affil*[1]{\orgdiv{DSBU}, \orgname{Axle Research}, \orgaddress{\street{6116 Executive Blvd Suite 400}, \city{Rockville}, \postcode{20852}, \state{MD}, \country{USA}}}
+
+\affil[2]{\orgname{NCATS}, \orgaddress{\street{9800 Medical Center Dr}, \city{Rockville}, \postcode{20850}, \state{MD}, \country{USA}}}
+
+
+\affil[3]{\orgdiv{Department WFH}, \orgname{WFH Research}, \orgaddress{\street{314 Thuis}, \city{Thuiswerken}, \postcode{31416}, \state{WF}, \country{ZA}}}
+
+
+% Override the default cell padding (6pt)
+\renewcommand{\tabcolsep}{3pt}
+
+\begin{table} [!hbt]
+\centering
+\caption {2-dimensional intensity features}
+\label {table:INTEN}
+\begin{tiny}
+\begin{tabular} { l  c  c  c  c  c  c  c  c  c  }
+\toprule
+
+ Feature & CP &  IM &  MT &  MI &  NF &  PR &  RJ & WC & NY \\
+ \midrule
+1 C of var & -- & -- & -- & 1 & -- & -- & 1 & -- & -- \\
+2 Covered img Inten Range & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+3 Edge integrated intensity & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+4 Edge intensity max & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+5 Edge intensity min & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+6 Edge intensity mean & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+7 Edge intensity std & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+8 Energy & -- & -- & -- & 1 & 1 & 1 & 1 & 1 & 1 \\
+9 Entropy & -- & -- & 1 & 1 & 1 & 1 & -- & 1 & 1 \\
+10 Excess kurtosis & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+11 Hyperflatness & -- & -- & -- & -- & 1 & -- & -- & -- & 1 \\
+12 Hyperskewness & -- & -- & -- & -- & 1 & -- & -- & -- & 1 \\
+13 II & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+14 IQR & -- & -- & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+15 Kurtosis & -- & -- & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+16 MD & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+17 Max & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 \\
+18 Mean & 1 & -- & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+19 MAD & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 \\
+20 Median & 1 & -- & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+21 Median Abs Dev & -- & -- & -- & 1 & -- & -- & 1 & -- & -- \\
+22 Min & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 \\
+23 Mode & -- & -- & 1 & 1 & 1 & -- & -- & 1 & 1 \\
+24 Mode probability & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+25 Percentiles & 1\textsuperscript{A} & -- & 1\textsuperscript{B} & 1\textsuperscript{C} & -- & 1\textsuperscript{D} & 2\textsuperscript{E} & 1\textsuperscript{F} & 1\textsuperscript{G} \\
+26 Qu C of disp & -- & -- &  -- &  1 & -- & -- &  1 & -- & -- \\
+27 Range & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 \\
+28 RMAD & -- & -- & -- & 1 & -- & 1 & -- & 1 & 1 \\
+29 Rmean & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+30 RMS & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 \\
+31 SE & -- & -- & 1 & -- & -- & -- & 1 & 1 & 1 \\
+32 Skewness & -- & -- & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+33 std & 1 & -- & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+34 std biased & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+35 Uniformity & -- & -- & -- & 1 & -- & 1 & -- & -- & 1 \\
+36 Uniformity PIU & -- & -- & -- & -- & -- & -- & -- & -- & 1 \\
+37 Variance & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 \\
+38 Variance (biased) & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+39 WCX & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 \\
+40 WCY & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 \\
+41-85 Histogram based features \textsuperscript{H} & -- & -- & -- & 1 & -- & -- & -- & -- & -- \\
+
+\bottomrule
+\end{tabular}
+\end{tiny}
+\vspace{1ex}
+\begin{tiny}
+{\raggedright
+A: 2 features. B: 1 feature. C: 19 features. D: 2 features. E: 2 features. F: 1 feature. G: 5 features.
+H: Mean val, Variance val, Skewness val, Excess Kurtosis val, Median val, Minimum val, Percentile 10 val, Percentile 90 val, Maximum val, Mode val, IQR val, Range val, MAD val, RMAD val, Med AD val, c of var val, Q coef of disp val, Entropy val, Uniformity val, Robust Mean val, Mean idx, Variance idx, Skewness idx, Excess Kurtosis idx, Median idx, Minimum idx, Percentiles idx, Maximum idx, Mode idx, IQR idx, Range idx, MAD idx, RMAD idx, Med AD idx, C of Var idx, Q C of disp idx, Entropy idx, Uniformity idx, Max Gradient, Max Gradient idx, Min Gradient, Min Gradient idx, R Mean idx, Number of Bins, Bin Size.
+\par}
+\end{tiny}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table} [!hbt]
+\centering
+\caption {2-dimensional shape and geometric moment features}
+\label {table:SHAPE_MOMS}
+\begin{tiny}
+\begin{tabular} {l c c c c c c c c c l c c c c c c c c c }
+
+\toprule
+Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY &   Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY \\
+
+\midrule
+\hspace{2mm}  \bf Shape \rm &  &  &  &  &  &  &  &  &  & \hspace{2mm}  \bf Statistical lengths \rm &  &  &  &  &  &  &  &  &  \\ %\cline{1-10}
+ 86 Area & 1 & 1 & 1 & -- & -- & -- & 1 & 1 & 1 &  134 Feret \diameter mode & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 87 Area projection & -- & 1 & -- & -- & -- & -- & -- & -- & -- &  135 Feret \diameter stddev & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 88 Aspect Ratio & -- & -- & -- & -- & -- & -- & -- & 1 & 1 &  136 Feret max angle & -- & -- & 1 & -- & -- & -- & 1 & -- & -- \\
+ 89 BB Height & -- & -- & 1 & -- & -- & -- & 1 & 1 & 1 &  137 Feret max coordinates & 1 & -- & 1 & -- & -- & -- & -- & -- & 1 \\
+ 90 BB Width & -- & -- & 1 & -- & -- & -- & 1 & 1 & 1 &  138 Feret max \diameter & 1 & 1 & 1 & -- & -- & -- & -- & -- & 1 \\
+ 91 Bounding Box X & -- & -- & 1 & -- & -- & -- & -- & 1 & 1 &  139 Feret mean \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 92 Bounding Box Y & -- & -- & 1 & -- & -- & -- & -- & 1 & 1 &  140 Feret median \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 93 Centroid X & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  141 Feret min angle & -- & -- & 1 & -- & -- & -- & -- & -- & -- \\
+ 94 Centroid Y & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  142 Feret min coordinates & -- & -- & 1 & -- & -- & -- & -- & -- & 1 \\
+ 95 Circularity, formfactor & 1 & -- & 1 & -- & -- & -- & 1 & 1 & 1 &  143 Feret min \diameter & 1 & 1 & 1 & -- & -- & -- & -- & -- & 1 \\
+ 96 Compactness & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 &  144 Martin max \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 97 Convex hull area & -- & -- & 1 & -- & -- & -- & -- & 1 & 1 &  145 Martin mean \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 98 Convex perimeter & -- & 1 & -- & -- & -- & -- & -- & -- & -- &  146 Martin median \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 99 \diameter max encl circle & -- & 1 & -- & -- & -- & -- & -- & -- & -- &  147 Martin min \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 100 \diameter min encl circle & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  148 Martin \diameter mode & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 101 \diameter circumscr circle & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  149 Martin \diameter stddev & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 102 \diameter inscr circle & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  150 Nassenstein max \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 103 \diameter equal area & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  151 Nassenstein mean \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 104 \diameter equal perimeter & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  152 Nassenstein median \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 105 Dist from border & -- & -- & -- & -- & -- & 1 & -- & -- & -- &  153 Nassenstein min \diameter & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 106 Eccentricity & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  154 Nassenstein \diameter mode & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 107 Elongation & -- & -- & -- & -- & -- & -- & 1 & 1 & 1 &  155 Nassenstein \diameter stddev & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 108 Equiv \diameter & -- & -- & 1 & -- & -- & -- & -- & 1 & 1 &  156 Maxchords max & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 109 Extent & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  157 Maxchords mean & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 110 Extrema & -- & -- & 1 & -- & -- & -- & -- & -- & 1 &  158 Maxchords median & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 111 Euler number & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  159 Maxchords min & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 112 Geodetic length & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  160 Maxchords mode & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 113 Geodetic thickness & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  161 Maxchords stddev & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 114 Major axis length & 1 & 1 & 1 & -- & -- & -- & 1 & 1 & 1 &  162 Allchords max & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 115 Mass displacement & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 &  163 Allchords mean & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 116 Max radius & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 &  164 Allchords median & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 117 Median radius & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 &  165 Allchords min & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 118 Min radius & -- & -- & -- & -- & -- & -- & -- & 1 & 1 &  166 Allchords mode & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 119 Mesh surface & -- & -- & -- & -- & -- & -- & -- & 1 & 1 &  167 Allchords stddev & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 \\
+ 120 Minor axis length & 1 & 1 & 1 & -- & -- & -- & 1 & 1 & 1 & \hspace{2mm}  \bf Shape geometric moments \rm &  &  &  &  &  &  &  &  &  \\
+ 121 Orientation & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  168 Raw moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 122 Perimeter & 1 & -- & 1 & -- & -- & -- & 1 & 1 & 1 &  169 Weighted raw moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 123 Solidity & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  170 Central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 124 Zernike shape features & 1 & -- & -- & -- & -- & -- & -- & -- & -- &  171 Weighted central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 125 WCX & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  172 Normalized central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 126 WCY & 1 & -- & 1 & -- & -- & -- & -- & 1 & 1 &  173 Normalized raw moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+\hspace{2mm}  \bf Mesodescriptors \rm &  &  &  &  &  &  &  &  &  &  174 Hu invariants & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 127 Erosions to vanish & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  175 Weighted Hu invariants & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 128 Eros to vanish compl & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 & \hspace{2mm}  \bf Intensity geometric moments \rm &  &  &  &  &  &  &  &  &  \\
+\hspace{2mm}  \bf Microdescriptors \rm &  &  &  &  &  &  &  &  &  &  176 intensity raw moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 129 Fractal dim boxcounting & -- & 1 & -- & -- & -- & -- & 1 & 1 & 1 &  177 intensity central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 130 Fractal dim perimeter & -- & 1 & -- & -- & -- & -- & -- & 1 & 1 &  178 intensity normalized raw moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+\hspace{2mm}  \bf Pattern descriptors \rm &  &  &  &  &  &  &  &  &  &  179 intensity normalized central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 131 Hexagonality ave & -- & -- & -- & -- & -- & -- & -- & 1 & 1 &  180 intensity Hu's moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 132 Hexagonality STD & -- & -- & -- & -- & -- & -- & -- & 1 & 1 &  181 intensity weighted raw moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 133 Polygonality ave & -- & -- & -- & -- & -- & -- & -- & 1 & 1 &  182 intensity weighted central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+   &  &  &  &  &  &  &  &  &  &  183 intensity weighted normalized central moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+   &  &  &  &  &  &  &  &  &  &  184 intensity weighted Hu's moments & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+
+\bottomrule
+\end{tabular}
+\end{tiny}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[!hbt]
+\centering
+\caption {2-dimensional texture features}
+\label {table:TEXTURE}
+\begin{tiny}
+\begin{tabular} { l  c  c  c  c  c  c  c  c  c    l  c  c  c  c  c  c  c  c  c }
+ \toprule
+  Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY &   Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY \\
+  \midrule
+\hspace{2mm}  \bf GLCM \rm  &  &   &   &   &   &   &   &  &  &  242 LRE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\ %\cline{1-10}
+ 185 ASM & 1 &  -- &  -- &  -- &  -- &  1 &  1 & 1 & 1 &  243 LRHGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 186 ACOR & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  244 LRLGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 187 AVEAMP & -- &  -- &  -- &  -- &  1 &  -- &  -- & 1 & 1 &  245 LGLRE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 188 CLUPROM & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  246 RE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 189 CLUSHADE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  247 RLNU & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 190 CLUTEND & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  248 RLNUN & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 191 CONTRAST & 1 &  -- &  1 &  -- &  1 &  1 &  1 & 1 & 1 &  249 Run ZP & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\ %\cline{11-20}
+ 192 CORR & 1 &  -- &  1 &  -- &  1 &  1 &  1 & 1 & 1 &  250 RV & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 193 DIFAVE & -- &  -- &  -- &  -- &  1 &  1 &  1 & -- & 1 &  251 SRE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 194 DIFENTRO & 1 &  -- &  -- &  -- &  1 &  1 &  1 & 1 & 1 &  252 SRHGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 195 DIFVAR & 1 &  -- &  -- &  -- &  1 &  1 &  1 & 1 & 1 &  253 SRLGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 \\
+ 196 DIS & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 & \hspace{2mm}  \bf GLDZM \rm  &  &   &   &   &   &   &   &  &   \\
+ 197 ENERGY & -- &  -- &  1 &  -- &  1 &  1 &  -- & -- & 1 &  254 GLNU & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 198 ENTROPY & 1 &  -- &  -- &  -- &  1 &  -- &  -- & 1 & 1 &  255 GLNUN & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\  %\cline{21-30}
+ 199 HOM1 & -- &  -- &  1 &  -- &  1 &  1 &  -- & -- & 1 &  256 GLV & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 200 HOM2 & -- &  -- &  -- &  -- &  -- &  1 &  -- & -- & 1 &  257 HGLZE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\ %\cline{11-20}
+ 201 IDM & 1 &  -- &  -- &  -- &  1 &  1 &  1 & 1 & 1 &  258 LDE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 202 INFOMEAS1 & 1 &  -- &  -- &  -- &  -- &  1 &  1 & 1 & 1 &  259 LDHGLE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 203 INFOMEAS2 & 1 &  -- &  -- &  -- &  -- &  1 &  1 & 1 & 1 &  260 LDLGLE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 204 IDMN & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  261 LGLZE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 205 ID & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  262 SDE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 206 IDN & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  263 SDHGLE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 207 IV & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  264 SDLGLE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 208 JAVE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  265 ZDE & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 209 JE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  266 ZDNU & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 210 MAA & -- &  -- &  -- &  -- &  1 &  -- &  -- & 1 & -- &  267 ZDNUN & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 211 MAINAMP & -- &  -- &  -- &  -- &  1 &  -- &  -- & 1 & -- &  268 ZDV & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 212 JMAX & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  269 ZP & -- &  -- &  -- &  1 &  -- &  -- &  1 & -- &  1 \\
+ 213 MCC & -- &  -- &  -- &  -- &  -- &  1 &  -- & -- & -- &  270 GLM & -- &  -- &  -- &  1 &  -- &  -- &  -- & -- &  1 \\
+ 214 OA & -- &  -- &  -- &  -- &  1 &  -- &  -- & -- & -- &  271 ZDM & -- &  -- &  -- &  1 &  -- &  -- &  -- & -- &  1 \\
+ 215 SUMAVE & 1 &  -- &  -- &  -- &  1 &  1 &  1 & 1 & 1 &  272 GLE & -- &  -- &  -- &  1 &  -- &  -- &  -- & -- &  -- \\
+ 216 SUMENT & 1 &  -- &  -- &  -- &  1 &  1 &  1 & 1 & 1 & \hspace{2mm}  \bf GLSZM \rm  &  &   &   &   &   &   &   &  &   \\
+ 217 JVAR & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  273 GLNU & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\ %\cline{11-20} %\cline{21-30}
+ 218 SUMVAR & 1 &  -- &  -- &  -- &  1 &  1 &  1 & 1 & 1 &  274 GLNUN & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 219 VARIANCE & 1 &  -- &  -- &  -- &  1 &  -- &  -- & 1 & 1 &  275 GLV & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+\hspace{2mm}  \bf NGLDM \rm  &  &   &   &   &   &   &   &  &  &  276 HGLZE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\ %\cline{1-10}
+ 220 DCENRG & -- &  -- &  -- &  -- &  -- &  -- &  1 & -- & 1 &  277 LAE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 221 DCENT & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  278 LAHGLE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 222 DCNU & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  279 LALGLE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 223 DCNUN & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  280 LGLZE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 224 DCM & -- &  -- &  -- &  -- &  -- &  -- &  -- & -- & 1 &  281 SZNU & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 225 DCV & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  282 SZNUN & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 226 GLNU & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  283 SAE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 227 GLNUN & -- &  -- &  -- &  -- &  -- &  -- &  1 & -- & 1 &  284 SAHGLE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 228 GLM & -- &  -- &  -- &  -- &  -- &  -- &  -- & -- & 1 &  285 SALGLE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 229 GLV & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  286 ZE & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 230 HDE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  287 ZP & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- &  1 \\
+ 231 HDHGLE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  288 ZV & -- &  -- &  -- &  1 &  -- &  1 &  1 & -- & 1 \\
+ 232 HDLGLE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  289 GLM & -- &  -- &  -- &  1 &  -- &  -- &  -- & -- & -- \\
+ 233 HGLCE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  290 ZSM & -- &  -- &  -- &  1 &  -- &  -- &  -- & -- & -- \\
+ 234 LDE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 & \hspace{2mm}  \bf NGTDM \rm  &  &   &   &   &   &   &   &  &  \\
+ 235 LDHGLE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  291 Busyness & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 \\
+ 236 LDLGLE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  292 Coarseness & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 \\
+ 237 LGLCE & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 &  293 Complexity & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 \\
+\hspace{2mm}  \bf GLRLM \rm  &  &   &   &   &   &   &   &  &   &  294 Contrast & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 \\
+ 238 GLNU & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 &  295 Strength & -- &  -- &  -- &  -- &  -- &  1 &  1 & -- & 1 \\
+ 239 GLNUN & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 & \hspace{2mm}  \bf GLDM \rm  &  &   &   &   &   &   &   &  &  \\
+ 240 GLV & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 &  296 SDE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+ 241 HGLRE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- &  1 &  297 LDE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  298 GLN & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  299 DN & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  300 DNN & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  301 GLV & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  302 DV & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  303 DE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  304 LGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  305 HGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  306 SDLGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  307 SDHGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  308 LDLGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+   &  &   &   &   &   &   &   &  &   &  309 LDHGLE & -- &  -- &  -- &  1 &  -- &  1 &  -- & -- & 1 \\
+
+ \bottomrule
+\end{tabular}
+\end{tiny}
+
+\vspace{1ex}
+\begin{tiny}
+{\raggedright
+GLCM acronyms:
+GLNU = Gray Level NonUniformity,
+GLNUN = Gray Level NonUniformity Normalized,
+GLV = Gray Level Variance,
+HGLRE = High Gray Level Run Emphasis,
+LRE = Long Run Emphasis,
+LRHGLE = Long Run High Gray Level Emphasis,
+LRLGLE = Long Run Low Gray Level Emphasis,
+LGLRE = Low Gray Level Run Emphasis,
+RE = Run Entropy,
+RLNU = Run Length Non Uniformity,
+RLNUN = Run Length Non Uniformity Normalized,
+RP = Run Percentage,
+RV = Run Variance,
+Short Run Emphasis,
+Short Run High Gray Level Emphasis,
+SRLGLE = Short Run Low Gray Level Emphasis.
+GLSZM acronyms:
+GLNU = Gray Level NonUniformity,
+GLNUN = Gray Level NonUniformity Normalized,
+GLV = Gray Level Variance,
+HGLZE = High Gray Level Zone Emphasis,
+LAE = Large Area Emphasis,
+LAHGLE = Large Area High Gray Level Emphasis,
+LALGLE = Large Area Low Gray Level Emphasis,
+LGLZE = Low Gray Level Zone Emphasis,
+SZNU = Size Zone NonUniformity,
+SZNUN = Size Zone NonUniformity Normalized,
+SAE = Small Area Emphasis,
+SAHGLE = Small Area High Gray Level Emphasis,
+SALGLE = Small AreaLow Gray Level Emphasis,
+ZE = Zone Entropy,
+ZP = Zone Percentage.
+
+\par}
+\end{tiny}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[!hbt]
+\centering
+\caption {Miscellaneous 2-dimensional features}
+\label {table:MISC}
+\begin{tiny}
+\begin{tabular} {
+l  c  c  c  c  c  c  c  c  c  l  c  c  c  c  c  c  c  c  c  l  c  c  c  c  c  c  c  c  c
+}
+\toprule
+
+Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY \\
+\midrule
+\hspace{2mm}  \bf Intensity distribution \rm &  &  &  &  &  &  &  &  &  \\
+ 310 Gabor & -- & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+ 311 FracAtD & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 312 MeanFrac & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 313 RadialCV & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 314 Zernike & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+\hspace{2mm}  \bf Interdescriptors \rm &  &  &  &  &  &  &  &  &  \\
+ 315 Num neighbors & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+ 316 Percent touching & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 317 1st closest obj number & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 318 1st closest dist & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 319 1st closest angle & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 320 2nd closest obj number & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 321 2nd closest dist & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 322 2nd closest angle  & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 323 Angle betw neighbors mean & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 \\
+ 324 Angle betw neighbors med & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 325 Angle betw neighbors STD & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+\hspace{2mm}  \bf Skeleton features \rm &  &  &  &  &  &  &  &  &  \\
+ 326 Number of trunks & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 327 Num non-trunk objs & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 328 Num branch ends & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 329 Total skeleton length & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+\hspace{2mm}  \bf Image quality \rm &  &  &  &  &  &  &  &  &  \\
+ 330 IMQ blur FocusScore & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 331 IMQ blur LocalFocusScore & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 332 IMQ blur Correlation & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 333 IMQ blur PowLogLogSlope & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 334 IMQ sat PCMax & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 335 IMQ sat PCMin & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 336 IMQ inten Tot I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 337 IMQ inten Mean I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 338 IMQ inten Med I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 339 IMQ inten Std I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 340 IMQ inten MAD I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 341 IMQ inten Max I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 342 IMQ inten Min I & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 343 IMQ inten TotArea & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 344 IMQ inten TotVol & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 345 IMQ inten Scaling & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 346 IMQ Sharpness & -- & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 347 IMQ Threshold & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+
+\bottomrule
+\end{tabular}
+\end{tiny}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table} [!hbt]
+\centering
+\caption {3-dimensional features}
+\label {table:VOL}
+\begin{tiny}
+\begin{tabular} {
+  l  c  c  c  c  c  c  c  c  c   l  c  c  c  c  c  c  c  c  c
+}
+\toprule
+
+  Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY &  Feature & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY \\
+  \midrule
+  \bf Intensity \rm &  &  &  &  &  &  &  &  &  &  \bf Shape \rm &  &  &  &  &  &  &  &  &  \\
+ 348 Coef of var & -- & -- & -- & 1 & -- & -- & 1 & -- & 1 & 384 volume (voxel) & 1 & 1 & -- & 1 & -- & 1 & 1 & -- & 1 \\
+ 349 Covered img inten range & -- & -- & -- & 1 & -- & -- & -- & -- & 1 & 385 volume (bb) & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 350 Energy & -- & -- & -- & 1 & -- & 1 & 1 & 1 & 1 & 386 volume (convhull/mesh) & -- & 1 & 1 & -- & -- & 1 & -- & -- & 1 \\
+ 351 Entropy & -- & -- & 1 & 1 & -- & 1 & -- & 1 & 1 & 387 convex area & 1 & -- & -- & -- & -- & -- & -- & -- & 1 \\
+ 352 Excess kurtosis & -- & -- & -- & 1 & -- & -- & -- & -- & 1 & 388 area & 1 & 1 & -- & -- & -- & 1 & -- & -- & 1 \\
+ 353 Hyperflatness & -- & -- & -- & -- & -- & -- & -- & -- & 1 & 389 area to volume & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 354 Hyperskewness & -- & -- & -- & -- & -- & -- & -- & -- & 1 & 390 compactness1 & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 355 II & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 & 391 compactness2 & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 356 IIE & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 & 392 D vol equiv & -- & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 357 IQR & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 393 D surf equiv & -- & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 358 Kurtosis & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 394 extent & 1 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ 359 MAD & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 395 centroid & 1 & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 360 Max & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 396 width\_3d\_bb & 1 & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 361 MD & 1 & -- & -- & -- & -- & -- & -- & 1 & 1 & 397 major axis length & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 362 Mean & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 398 minor axis length & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 363 Mean IE & 1 & -- & -- & -- & -- & -- & -- & -- & 1 & 399 least axis length & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 364 Median & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 400 elongation & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 365 Median abs dev & -- & -- & -- & 1 & -- & -- & 1 & -- & 1 & 401 flatness & -- & -- & -- & -- & -- & 1 & -- & -- & 1 \\
+ 366 Min & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 402 length\_3d\_bb & 1 & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 367 Mode & -- & -- & 1 & 1 & -- & -- & -- & 1 & 1 & 403 height\_3d\_bb & 1 & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 368 Mode probability & -- & -- & -- & 1 & -- & -- & -- & -- & 1 & 404 feret\_3d\_max & -- & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 369 Percentiles & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 405 feret\_3d\_min & -- & 1 & -- & -- & -- & -- & -- & -- & -- \\
+ 370 Quantile coef of disp & -- & -- & -- & 1 & -- & -- & 1 & -- & 1 & 406 x\_max\_3d & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 371 Range & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 407 y\_max\_3d & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 372 RMAD & -- & -- &  -- &  1 & -- & 1 &  -- & 1 & 1 & 408 z\_max\_3d & -- & 1 & -- & -- & -- & -- & -- & -- & 1 \\
+ 373 Rmean & -- & -- & -- & 1 & -- & -- & -- & -- & 1 & 409 max 3D diam & -- & -- & -- & 1 & -- & 1 & 1 & -- & 1 \\
+ 374 RMS & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 &  \bf Texture \rm &  &  &  &  &  &  &  &  &  \\
+ 375 SE & -- & -- & 1 & -- & -- & -- & 1 & 1 & 1 & 410 GLCM & 1 & -- & -- & 1 & -- & 1 & 1 & -- & 1\textsuperscript{A} \\
+ 376 Skewness & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 411 GLDM & -- & -- & -- & 1 & -- & 1 & 1 & -- & 1\textsuperscript{B} \\
+ 377 std & 1 & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 & 412 GLRLM & -- & -- & -- & 1 & -- & 1 & 1 & -- & 1\textsuperscript{C} \\
+ 378 std IE & 1 & -- & -- & -- & -- & -- & -- & -- & 1 & 413 GLSZM & -- & -- & -- & 1 & -- & 1 & 1 & -- & 1\textsuperscript{D} \\
+ 379 std biased & -- & -- & -- & 1 & -- & -- & -- & -- & 1 & 414 NGTDM & -- & -- & -- & 1 & -- & 1 & 1 & -- & 1\textsuperscript{E} \\
+ 380 Uniformity & -- & -- & -- & 1 & -- & 1 & -- & -- & 1 & 415 NGLDM & -- & -- & -- & 1 & -- & -- & -- & -- & 1\textsuperscript{F} \\
+ 381 Uniformity PIU & -- & -- & -- & -- & -- & -- & -- & -- & 1 & 416 GLDZM & -- & -- & -- & 1 & -- & -- & -- & -- & 1\textsuperscript{G} \\
+ 382 Variance & -- & -- & 1 & 1 & -- & 1 & 1 & 1 & 1 &   &  &  &  &  &  &  &  &  &  \\
+ 383 Variance (biased) & -- & -- & -- & 1 & -- & -- & -- & -- & 1 &   &  &  &  &  &  &  &  &  &  \\
+
+\bottomrule
+\end{tabular}
+\end{tiny}
+\vspace{1ex}
+\begin{tiny}
+{\raggedright
+A: GLCM 31/35 features.
+B: 14/14 GLDM features.
+C: 16/15 GLRLM features.
+D: 16/18 GLSZM features.
+E: 5/5 NGTDM features.
+F: 18 NGLDM features.
+G: 18/19 GLSZM features.
+\par}
+\end{tiny}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[!hbt]
+\centering
+\caption {Benchmarks on Tissuenet and Decathlon datasets by feature group}
+\label {table:BENCH}
+% \begin{tiny}
+\begin{tabular} { l  c  c  c  c  c  c  c   c    c c   } % {@{}llr@{}}
+\toprule
+%\multicolumn{4}{c}
+%{Item} \\
+%\cmidrule(r){1-2}
+
+   & CP &  IM &  MT &  MI & NF &  PR &  RJ & WC & NY untarg & NY targ \\
+\midrule
+\hspace{2mm}tissuenet &  &  &  &  &  &  &  &  &   &   \\
+intensity & 211 & -- & 110 &446726 & 116 & 152 &418842 & 82 & 65  & 4   \\
+shape  & 1516 & 5892 & 612 & -- & 54 & -- & 15613 & 106 & 86  & 35  \\
+texture  & 5334 & -- & 740 &450056 & 96 & 875 & 62034 & 58 & 153  & 41  \\
+misc.   & 1267 & 15409 & -- & -- & -- & -- & -- & 63 & 160  & 129  \\
+\hspace{2mm}decathlon &  &  &  &  &  &  &  &  &   &   \\
+intensity & 25261 & -- & 5720 & 2577 & 5657 &113150 & 14790 & 4541 & 1317  & 1327  \\
+shape  &181418 & 43047 & 6764 & -- & 6076 &109522 & 19143 & 8343 & 1975  & 1982  \\
+texture  &638068 & -- & 6436 & 2618 & 5680 &112865 & 17123 & 22139 & 3218  & 1789  \\
+misc.   &151519 & -- & -- & -- & -- & -- & -- & -- & 2156  & 2167  \\
+\bottomrule
+\end{tabular}
+% \end{tiny}
+
+\vspace{1ex}
+\begin{tiny}
+{\raggedright
+\centering
+% CellP = CellProfiler 4.2.1,
+% Imea = Imea 0.3.3,
+% IPT = Matlab R2022b Image processing toolkit, \\
+% NIST = NIST Feature2DJava 1.5.0,
+% PyR = PyRadiomics 3.0.1,
+% WC = WindCharm 1.60.
+\par}
+\end{tiny}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+\centering
+\caption {criteria behind the functionality heatmap (Figure \ref{fig:FUNCTIONALITY_HEATMAP})}
+\label {table:FUNC_HEATMAP_CRITERIA}
+\begin{tiny}
+\begin{tabular} {p{0.1\linewidth} | p{0.3\linewidth} | p{0.15\linewidth} | p{0.15\linewidth} | p{0.15\linewidth}}
+\toprule
+ Category & Remark  & Green &  Blue &  Red \\
+ \midrule
+Out of Core Support
+ & Can the Method calculate all (or the majority) of its features if an image or ROI is larger than available RAM?
+ & $>90\%$
+ & $10\% \leqslant x \leqslant 90\%$
+ & $< 10\%$
+ \\
+ \hline
+\# Of Feature Classes
+ & Count of unique measurements extracted by each Method. Supplemental Tables 1-5 display all feature classes, each class is given a unique number in these tables. Of note is that often within a given feature depending on feature hyperparameters, many different measurements can be made. For example, Zernike polynomials measure the intensity distribution from each object’s center to its boundary within a set of bins, across its radial and azimuthal degrees and therefore can have unlimited Zernike polynomial measures for a single feature class. However, for this manuscript Zernike would represent only one feature class
+ & $>90\%$
+ & $10\% \leqslant x \leqslant 90\%$
+ & $< 10\%$ \\
+ \hline
+Next Gen. Output Format
+ & Method supports both in memory representation and saving to disk of measured feature classes in indexed columnar formats such as Apache Arrow, Feather, and/or Parquet
+ & Supports $>1$ such format
+ & Supports 1 such format
+ & Does not natively support output of feature values in an indexed columnar format
+ \\
+ \hline
+GPU Support
+ & Method supports calculation of features using a GPU
+ & Supports calculating > 1 feature classes on GPU
+ & Supports calculating 1 feature class on GPU
+ & Does not support calculation of any feature classes on GPU
+ \\
+ \hline
+Soft (Tunable) Features
+ & Method supports users setting hyperparameters for features that have hyperparameters
+ & $>90\%$
+ & $10\% \leqslant x \leqslant 90\%$
+ & $< 10\%$
+ \\
+ \hline
+IBSI Compliant
+ & Method can be automatically configured to output feature measurement values that fall within accepted ranges on IBSI benchmark datasets for feature classes within the IBSI standard
+ & $>90\%$
+ & $10\% \leqslant x \leqslant 90\%$
+ & $< 10\%$
+ \\
+ \hline
+OME Tiff and NGFF Support
+ & Method can load and process images in the OME.tiff and OME.ngff (zarr) format
+ & Method can open both file formats and process them without the user having to install or utilize other Methods/tools
+ & Method can open both file formats and process them using third party Methods/tools, without converting the files into another format
+ & Method cannot open both file formats without converting them to another file format
+ \\
+ \hline
+DICOM Support
+ & Method can load and process images in the DICOM format
+ & Method can open files in this format and process them without the user having to install or utilize other Methods/tools
+ & Method can open files in this format and process them using third party Methods/tools, without converting the files into another format
+ & Method cannot open files in this format without converting them to another file format
+ \\
+ \hline
+ROI/FOV
+ & ROI means that a Method can extract feature class measurements from an image and a corresponding mask together producing measurements per unique region in the mask. FOV means that a Method can extract feature class measurements from an image file without the need of a mask, producing one  set of measurements per image file. Of note is that a Method is not given credit for FOV support if the user must submit a mask with an image that covers the entire area of the image
+ & Both –- Supports both ROI and FOV measurements
+ &
+ & ROI or FOV -- Only supports either ROI measurements or FOV measurements, not both
+ \\
+ \hline
+3D Feature Classes
+ & Count of feature classes a Method supports that can be measured on volumetric (3D) regions. Of note is that a Method that supports extracting features on individual 2D slices of 3D volumes is not given credit for supporting 3D feature classes
+ & $>90\%$
+ & $10\% \leqslant x \leqslant 90\%$
+ & $< 10\%$
+ \\
+ \hline
+GUI
+ & The maintainer of the Method has developed a GUI that enables the use of the Method without programming or command line use
+ & Method can be accessed from a GUI that the maintainer of the tool has developed OR the GUI for the Method can be accessed from a platform that is developed and maintained by the same organization that develops and maintains the Method
+ & (via X) Method can be accessed from a GUI that the maintainer of the tool has developed in a platform that is not developed and maintained by the same organization that develops and maintains the Method
+ & Method cannot be accessed from a GUI that the maintainer of the tool has developed
+ \\
+ \hline
+Standard Workflow Tool Definition
+ & Method is made available as an open standard workflow tool/step by the maintainer of the Method. Examples include: Common Workflow Language Command Line Tool (CWL-CLT), Workflow Definition Language XX (WDL-), Nextflow XX (NF-), Interoperable Computational Tool (ICT), Web Image Processing Pipeline Plugin (WIPP Plugin), etc
+ & X -- Method is made available by the maintainer of the Method as more than one open standard workflow language tool/step
+ & X (Partial) –– Method is made available by the maintainer of the Method as a single open standard workflow language tool/step
+ & No -- Method is not made available by the maintainer of the Method as an open standard workflow language tool/step
+ \\
+ \hline
+OCI Container
+ & Method is made available as an Open Container Initiative (OCI) compliant container by the maintainer of the tool. Examples include: Docker container, Aptainer, Podman container, Singularity container, etc
+ & Yes –- Method is made available by the maintainer of the Method in at least one OCI compliant container format
+ &
+ & No –- Method is not made available by the maintainer of the Method in at least one OCI compliant container format
+ \\
+ \hline
+Command Line Tool
+ & Method is made available as a command line tool by the maintainer of the tool
+ & Yes –- Method is made available by the maintainer of the Method as a command line tool. Users do not need to compile their own command line tool
+ &
+ & No –- Method is not made available by the maintainer of the Method as a command line tool
+ \\
+ \hline
+Image Formats Supported
+ & Count of the number of input image formats (or the format if only one) the Method supports along with a citation
+ & Supports $> 90\%$ of all formats supported across all libraries
+ & Supports loading $>1$ image format
+ & Supports loading a single format
+ \\
+ \hline
+Licensing
+ & Description of the license type associated with the Method
+ & License name - Green – All BSD, MIT, and Apache v2.0 as well as unlicensed Methods, e.g. most permissive
+ & License name -- All copyleft licenses (for example GPL and AGPL), e.g. license restrictions
+ & License name -- Proprietary license for the software, e.g. most restrictive
+ \\
+ \hline
+Open Source
+ & Method maintainers have made the source code (not just binaries) publicly available for inspection and validation
+ & Yes -- Method maintainers provide access to all source code and its documentation in a public repository(s)
+ & Semi -- Method maintainers provide access to some pieces of the code and its documentation in a public repository(s)
+ & No -- Method maintainers provide no access to source code and/or its documentation in a public repository(s)
+ \\
+ \hline
+Languages
+ & A list of languages the Method maintainers have made the Method available/accessible in
+ & & & \\
+
+\bottomrule
+\end{tabular}
+\end{tiny}
+\vspace{1ex}
+\begin{tiny}
+{\raggedright
+% blah blah blah
+\par}
+\end{tiny}
+\end{table}
+
+\end{document}
